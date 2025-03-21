@@ -1,0 +1,1072 @@
+Package: broadcom-sta
+Format: 3.0 (quilt)
+Binary: broadcom-sta-common, broadcom-sta-dkms, broadcom-sta-source
+Architecture: all
+Version: 6.30.223.271-24
+Priority: optional
+Section: restricted/admin
+Maintainer: Eduard Bloch <blade@debian.org>
+Uploaders: Cyril Lacoux <clacoux@easter-eggs.com>, Roger Shimizu <rosh@debian.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), dh-sequence-dkms, dh-dkms
+Testsuite: autopkgtest-pkg-dkms
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Vcs-Browser: https://salsa.debian.org/broadcom-sta-team/broadcom-sta
+Vcs-Git: https://salsa.debian.org/broadcom-sta-team/broadcom-sta.git
+Directory: pool/restricted/b/broadcom-sta
+Package-List:
+ broadcom-sta-common deb non-free/kernel optional arch=all
+ broadcom-sta-dkms deb non-free/kernel optional arch=all
+ broadcom-sta-source deb non-free/kernel optional arch=all
+Files:
+ d1b7af94455fa81a1a9584caaf58fbd0 2300 broadcom-sta_6.30.223.271-24.dsc
+ f2d9a16d5c36afa112ea9cef2f3592be 2194116 broadcom-sta_6.30.223.271.orig.tar.xz
+ 12bdbf1a737ed1f7470b36a6186068b6 31660 broadcom-sta_6.30.223.271-24.debian.tar.xz
+Checksums-Sha1:
+ 38988b65e3705f8a529852d7a217aeb314cf8170 2300 broadcom-sta_6.30.223.271-24.dsc
+ 38f040920b064b244d47bd560a669308fd10cac8 2194116 broadcom-sta_6.30.223.271.orig.tar.xz
+ fac21bcbf42336a79e878116c9c3404efc65aa21 31660 broadcom-sta_6.30.223.271-24.debian.tar.xz
+Checksums-Sha256:
+ 51bf978c7faa8286ab8e35218ffcd8469da229a723f2c2fb6083cccd594f9aec 2300 broadcom-sta_6.30.223.271-24.dsc
+ 8b539f173ab7092d34307b6306e22c6380df025a7f2483937374492a7aedb2dc 2194116 broadcom-sta_6.30.223.271.orig.tar.xz
+ c20047a97051632d3bf863b9d1bbfe7f444017e435bc0fcc2de44bb38113c6ef 31660 broadcom-sta_6.30.223.271-24.debian.tar.xz
+Checksums-Sha512:
+ c9f795e4bb167588ff5e19dab8f533716ffa2318cc1775b46999aa7b3a4968c92342e919bf4fc2efae2e25438e9ccab0a7b0f43931919d6983442ccf0ff1d483 2300 broadcom-sta_6.30.223.271-24.dsc
+ 946c709564fa0b97e38736bd6f8d236f251b586f787559f65dd1f8f9c9fc2b123823ab623c1979cffb7a184698ffd5dd49fd4b37e95c33cac3d78e07f78c03b8 2194116 broadcom-sta_6.30.223.271.orig.tar.xz
+ 67f6e1bdac197f94dd80d812574a2e65dd674268a1c5031bbce7c9b250b019de44c15a7b47c28a417356ab83669dcfec8de36d388a5c4121e22ed37087c9c5b7 31660 broadcom-sta_6.30.223.271-24.debian.tar.xz
+Autobuild: yes
+
+Package: linux-firmware-raspi
+Format: 3.0 (quilt)
+Binary: linux-firmware-raspi
+Architecture: armhf arm64
+Version: 12-0ubuntu1
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), zstd
+Testsuite: autopkgtest
+Testsuite-Triggers: linux-firmware
+Homepage: https://github.com/raspberrypi/firmware
+Directory: pool/restricted/l/linux-firmware-raspi
+Package-List:
+ linux-firmware-raspi deb misc optional arch=armhf,arm64
+Files:
+ 569d4b37048f6fa5a86a50fa9ef3c2e8 2847 linux-firmware-raspi_12-0ubuntu1.dsc
+ 8858148f099f201500ec5191691f3fbb 167565 linux-firmware-raspi_12.orig-bluez.tar.gz
+ 399e134f4fd6993c4a7a02c0996b21a1 12787646 linux-firmware-raspi_12.orig-boot.tar.gz
+ 0bfa7051156f0b2827667b9e663ed58e 1947070 linux-firmware-raspi_12.orig-nonfree.tar.gz
+ 64ac729990774c40807dba94ec9670c9 131 linux-firmware-raspi_12.orig.tar.gz
+ 5260a839860be656abb09060884cd047 17440 linux-firmware-raspi_12-0ubuntu1.debian.tar.xz
+Checksums-Sha1:
+ b31b422c20a20e0a0535df44853fd67e7dfdde1d 2847 linux-firmware-raspi_12-0ubuntu1.dsc
+ d5ff398094e69561f6e7f62162e5a78c73d1d472 167565 linux-firmware-raspi_12.orig-bluez.tar.gz
+ 8d300ba2d254592fee2ddafc3f0ad75a067a90a2 12787646 linux-firmware-raspi_12.orig-boot.tar.gz
+ 5ed071226386e36a362a480065a41f3a9829b8d7 1947070 linux-firmware-raspi_12.orig-nonfree.tar.gz
+ 001ade8e847c7a98efe1cd5a867bef3734545e25 131 linux-firmware-raspi_12.orig.tar.gz
+ e362d56649b8e5ce892b26461c0542159f406124 17440 linux-firmware-raspi_12-0ubuntu1.debian.tar.xz
+Checksums-Sha256:
+ a9e54083a2699f5dc8880bbce613b74c3a39b2021e9299d250d6dca34ef52e3e 2847 linux-firmware-raspi_12-0ubuntu1.dsc
+ ade276ee43a3c449d1aa23b3985afcb1345cda9dcb52c9890977e1134cede7de 167565 linux-firmware-raspi_12.orig-bluez.tar.gz
+ e6130c780bc5691b13d3c5057550d644e0389566191bfe609afda358fc432858 12787646 linux-firmware-raspi_12.orig-boot.tar.gz
+ f42e4c5e1e02965691f95995d998c70213b1884c6aa5e18d56a50434997d8e5e 1947070 linux-firmware-raspi_12.orig-nonfree.tar.gz
+ b7e514628c19ed50f3f02bec50477d258fbc2ada7fa0d9177460107cb22162f2 131 linux-firmware-raspi_12.orig.tar.gz
+ 6942ce8b92683670c116afe3a87d388655640037b21a5208ab0ca821c34f43bb 17440 linux-firmware-raspi_12-0ubuntu1.debian.tar.xz
+Checksums-Sha512:
+ 76dcbf6ffc8c56ca289ef5857c5d8b630d938dba16878dea2f535ff8aefffbd39589fed62b168879fd1aee17e76b43bbfbbdb8a44f523e7ebbd558485119d75e 2847 linux-firmware-raspi_12-0ubuntu1.dsc
+ 92f610f1038e1b860695b937120446fcd4579ed23e76b26d72ca49d70fe8d8c4d130f647fe3dedb83f1c2a67c7dcf54a6ce3aa736913f8f867523774caf7d713 167565 linux-firmware-raspi_12.orig-bluez.tar.gz
+ e236d60ccff042b8614d6296b9ab7ede9c4a74d72ea46434e5a76b529fe871509ca652a295a7ecead8f9292d14db9bb957951a2a59c2750849197dddba4ec4d5 12787646 linux-firmware-raspi_12.orig-boot.tar.gz
+ 24faea1b9d949e2c46ca158d4a3ee800313218dbe556f62801b2adbf36e6289258c1e768a8d19d8700025e85acf0a9da938cc64096cb794ac26b22f107476f16 1947070 linux-firmware-raspi_12.orig-nonfree.tar.gz
+ f55c8e4ea2e15275565edc26332eb8e45ebcd9b4707f4c0fd806faefc97c9a21762e3d20d9ff942f9957a19d035160791839fcc636c03bc0956ee573b647bac3 131 linux-firmware-raspi_12.orig.tar.gz
+ a141b6fdb176b659f44c8b071b0899a84cfe6a742ed11d073c2b4a38917b0237fb08e2005ee46c18aa0d15fc67f34f955b17af6e841661542958bd059d9e00ec 17440 linux-firmware-raspi_12-0ubuntu1.debian.tar.xz
+
+Package: linux-restricted-modules
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-535-oem-24.04-535-generic-hwe-24.04, linux-modules-nvidia-535-open-oem-24.04-535-open-generic-hwe-24.04, linux-modules-nvidia-550-oem-24.04-550-generic-hwe-24.04, linux-modules-nvidia-550-open-oem-24.04-550-open-generic-hwe-24.04, linux-modules-nvidia-535-oem-24.04a-535-generic-hwe-24.04, linux-modules-nvidia-535-open-oem-24.04a-535-open-generic-hwe-24.04, linux-modules-nvidia-550-oem-24.04a-550-generic-hwe-24.04, linux-modules-nvidia-550-open-oem-24.04a-550-open-generic-hwe-24.04, linux-modules-nvidia-560-generic, linux-modules-nvidia-560-open-generic, linux-modules-nvidia-535-server-generic, linux-modules-nvidia-535-server-open-generic, linux-modules-nvidia-550-server-generic, linux-modules-nvidia-550-server-open-generic, linux-modules-nvidia-560-generic-64k, linux-modules-nvidia-560-open-generic-64k, linux-modules-nvidia-535-server-generic-64k, linux-modules-nvidia-535-server-open-generic-64k, linux-modules-nvidia-550-server-generic-64k,
+ linux-modules-nvidia-550-server-open-generic-64k, linux-modules-nvidia-560-generic-hwe-24.04, linux-modules-nvidia-560-open-generic-hwe-24.04, linux-modules-nvidia-535-server-generic-hwe-24.04, linux-modules-nvidia-535-server-open-generic-hwe-24.04, linux-modules-nvidia-550-server-generic-hwe-24.04, linux-modules-nvidia-550-server-open-generic-hwe-24.04, linux-modules-nvidia-560-generic-64k-hwe-24.04, linux-modules-nvidia-560-open-generic-64k-hwe-24.04, linux-modules-nvidia-535-server-generic-64k-hwe-24.04, linux-modules-nvidia-535-server-open-generic-64k-hwe-24.04, linux-modules-nvidia-550-server-generic-64k-hwe-24.04, linux-modules-nvidia-550-server-open-generic-64k-hwe-24.04, linux-modules-nvidia-560-generic-hwe-24.04-edge, linux-modules-nvidia-560-open-generic-hwe-24.04-edge, linux-modules-nvidia-535-server-generic-hwe-24.04-edge, linux-modules-nvidia-535-server-open-generic-hwe-24.04-edge, linux-modules-nvidia-550-server-generic-hwe-24.04-edge,
+ linux-modules-nvidia-550-server-open-generic-hwe-24.04-edge, linux-modules-nvidia-560-generic-64k-hwe-24.04-edge, linux-modules-nvidia-560-open-generic-64k-hwe-24.04-edge, linux-modules-nvidia-535-server-generic-64k-hwe-24.04-edge, linux-modules-nvidia-535-server-open-generic-64k-hwe-24.04-edge, linux-modules-nvidia-550-server-generic-64k-hwe-24.04-edge, linux-modules-nvidia-550-server-open-generic-64k-hwe-24.04-edge, linux-modules-nvidia-535-generic, linux-modules-nvidia-550-generic, linux-modules-nvidia-535-open-generic, linux-modules-nvidia-550-open-generic, linux-modules-nvidia-525-server-generic, linux-modules-nvidia-525-server-open-generic, linux-modules-nvidia-535-generic-64k, linux-modules-nvidia-550-generic-64k, linux-modules-nvidia-535-open-generic-64k, linux-modules-nvidia-550-open-generic-64k, linux-modules-nvidia-525-server-generic-64k, linux-modules-nvidia-525-server-open-generic-64k, linux-modules-nvidia-535-generic-hwe-24.04,
+ linux-modules-nvidia-550-generic-hwe-24.04, linux-modules-nvidia-535-open-generic-hwe-24.04, linux-modules-nvidia-550-open-generic-hwe-24.04, linux-modules-nvidia-525-server-generic-hwe-24.04, linux-modules-nvidia-525-server-open-generic-hwe-24.04, linux-modules-nvidia-535-generic-64k-hwe-24.04, linux-modules-nvidia-550-generic-64k-hwe-24.04, linux-modules-nvidia-535-open-generic-64k-hwe-24.04, linux-modules-nvidia-550-open-generic-64k-hwe-24.04, linux-modules-nvidia-525-server-generic-64k-hwe-24.04, linux-modules-nvidia-525-server-open-generic-64k-hwe-24.04, linux-modules-nvidia-535-generic-hwe-24.04-edge, linux-modules-nvidia-550-generic-hwe-24.04-edge, linux-modules-nvidia-535-open-generic-hwe-24.04-edge, linux-modules-nvidia-550-open-generic-hwe-24.04-edge, linux-modules-nvidia-525-server-generic-hwe-24.04-edge, linux-modules-nvidia-525-server-open-generic-hwe-24.04-edge, linux-modules-nvidia-535-generic-64k-hwe-24.04-edge,
+ linux-modules-nvidia-550-generic-64k-hwe-24.04-edge, linux-modules-nvidia-535-open-generic-64k-hwe-24.04-edge, linux-modules-nvidia-550-open-generic-64k-hwe-24.04-edge, linux-modules-nvidia-525-server-generic-64k-hwe-24.04-edge, linux-modules-nvidia-525-server-open-generic-64k-hwe-24.04-edge, linux-objects-nvidia-560-6.11.0-8-generic, linux-modules-nvidia-560-6.11.0-8-generic, linux-objects-nvidia-560-open-6.11.0-8-generic, linux-objects-nvidia-535-server-6.11.0-8-generic, linux-modules-nvidia-535-server-6.11.0-8-generic, linux-objects-nvidia-535-server-open-6.11.0-8-generic, linux-objects-nvidia-550-server-6.11.0-8-generic, linux-modules-nvidia-550-server-6.11.0-8-generic, linux-objects-nvidia-550-server-open-6.11.0-8-generic, linux-objects-nvidia-560-6.11.0-8-generic-64k, linux-modules-nvidia-560-6.11.0-8-generic-64k, linux-objects-nvidia-560-open-6.11.0-8-generic-64k, linux-objects-nvidia-535-server-6.11.0-8-generic-64k,
+ linux-modules-nvidia-535-server-6.11.0-8-generic-64k, linux-objects-nvidia-535-server-open-6.11.0-8-generic-64k, linux-objects-nvidia-550-server-6.11.0-8-generic-64k, linux-modules-nvidia-550-server-6.11.0-8-generic-64k,
+ linux-objects-nvidia-550-server-open-6.11.0-8-generic-64k
+Architecture: amd64 arm64
+Version: 6.11.0-8.8+2
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-headers-6.11.0-8-generic (>= 6.11.0-8.8) [amd64 arm64], linux-headers-6.11.0-8-generic-64k (>= 6.11.0-8.8) [arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-restricted-modules/+git/oracular
+Directory: pool/restricted/l/linux-restricted-modules
+Package-List:
+ linux-modules-nvidia-525-server-generic deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-generic-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-525-server-generic-64k-hwe-24.04 deb oldlibs optional arch=arm64
+ linux-modules-nvidia-525-server-generic-64k-hwe-24.04-edge deb oldlibs optional arch=arm64
+ linux-modules-nvidia-525-server-generic-hwe-24.04 deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-generic-hwe-24.04-edge deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-open-generic deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-open-generic-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-525-server-open-generic-64k-hwe-24.04 deb oldlibs optional arch=arm64
+ linux-modules-nvidia-525-server-open-generic-64k-hwe-24.04-edge deb oldlibs optional arch=arm64
+ linux-modules-nvidia-525-server-open-generic-hwe-24.04 deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-open-generic-hwe-24.04-edge deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-generic deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-generic-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-generic-64k-hwe-24.04 deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-generic-64k-hwe-24.04-edge deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-generic-hwe-24.04 deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-generic-hwe-24.04-edge deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-oem-24.04-535-generic-hwe-24.04 deb oldlibs optional arch=
+ linux-modules-nvidia-535-oem-24.04a-535-generic-hwe-24.04 deb oldlibs optional arch=
+ linux-modules-nvidia-535-open-generic deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-open-generic-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-open-generic-64k-hwe-24.04 deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-open-generic-64k-hwe-24.04-edge deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-open-generic-hwe-24.04 deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-open-generic-hwe-24.04-edge deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-open-oem-24.04-535-open-generic-hwe-24.04 deb oldlibs optional arch=
+ linux-modules-nvidia-535-open-oem-24.04a-535-open-generic-hwe-24.04 deb oldlibs optional arch=
+ linux-modules-nvidia-535-server-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-generic-64k-hwe-24.04 deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-generic-64k-hwe-24.04-edge deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-generic-hwe-24.04 deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-generic-hwe-24.04-edge deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-generic-64k-hwe-24.04 deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-generic-64k-hwe-24.04-edge deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-generic-hwe-24.04 deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-generic-hwe-24.04-edge deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-generic deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-generic-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-generic-64k-hwe-24.04 deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-generic-64k-hwe-24.04-edge deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-generic-hwe-24.04 deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-generic-hwe-24.04-edge deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-oem-24.04-550-generic-hwe-24.04 deb oldlibs optional arch=
+ linux-modules-nvidia-550-oem-24.04a-550-generic-hwe-24.04 deb oldlibs optional arch=
+ linux-modules-nvidia-550-open-generic deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-open-generic-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-open-generic-64k-hwe-24.04 deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-open-generic-64k-hwe-24.04-edge deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-open-generic-hwe-24.04 deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-open-generic-hwe-24.04-edge deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-open-oem-24.04-550-open-generic-hwe-24.04 deb oldlibs optional arch=
+ linux-modules-nvidia-550-open-oem-24.04a-550-open-generic-hwe-24.04 deb oldlibs optional arch=
+ linux-modules-nvidia-550-server-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-generic-64k-hwe-24.04 deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-generic-64k-hwe-24.04-edge deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-generic-hwe-24.04 deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-generic-hwe-24.04-edge deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-generic-64k-hwe-24.04 deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-generic-64k-hwe-24.04-edge deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-generic-hwe-24.04 deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-generic-hwe-24.04-edge deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-generic-64k-hwe-24.04 deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-generic-64k-hwe-24.04-edge deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-generic-hwe-24.04 deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-generic-hwe-24.04-edge deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-open-generic-64k-hwe-24.04 deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-open-generic-64k-hwe-24.04-edge deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-open-generic-hwe-24.04 deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-generic-hwe-24.04-edge deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+Files:
+ dcdd3486106e373d0788907a81a548a8 16262 linux-restricted-modules_6.11.0-8.8+2.dsc
+ 7788d22e08f5c5a281c1170f1824d5e7 29532 linux-restricted-modules_6.11.0-8.8+2.tar.xz
+Checksums-Sha1:
+ 69bb59b8810805972f1f24aa7c891d06202bc5cd 16262 linux-restricted-modules_6.11.0-8.8+2.dsc
+ 1c16ae267f5885cae805365dbc3b640506c53b80 29532 linux-restricted-modules_6.11.0-8.8+2.tar.xz
+Checksums-Sha256:
+ 6407be7d1678f3505c566152b454a209616d9568a35692f8854e66b92294c0b4 16262 linux-restricted-modules_6.11.0-8.8+2.dsc
+ 152ef29d71567bc2cb9c63bd939c83a3769d805f684fce19df51ab353d136e7d 29532 linux-restricted-modules_6.11.0-8.8+2.tar.xz
+Checksums-Sha512:
+ b100e710f77726ee606ad49252fdd6939e0887c70e7788157f3c64cda549b9fed89287c8dafcc7eb32ae1722b78cab815f37666444408ee801056a40e0d6a33d 16262 linux-restricted-modules_6.11.0-8.8+2.dsc
+ 2eb128a90157d3c258a94070818e8da93454a86cdfb440c5b984b32cab094f5d33b7d5b7141328b88f9d7356b3ca1a366635a547a0c277a167d0c3002070bb00 29532 linux-restricted-modules_6.11.0-8.8+2.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ nvidia-graphics-drivers-535-server (= 535.183.06-0ubuntu6),
+ nvidia-graphics-drivers-550-server (= 550.90.12-0ubuntu2),
+ nvidia-graphics-drivers-560 (= 560.35.03-0ubuntu5),
+
+Package: linux-restricted-modules-aws
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-560-aws, linux-modules-nvidia-560-open-aws, linux-modules-nvidia-535-server-aws, linux-modules-nvidia-535-server-open-aws, linux-modules-nvidia-550-server-aws, linux-modules-nvidia-550-server-open-aws, linux-modules-nvidia-535-aws, linux-modules-nvidia-550-aws, linux-modules-nvidia-535-open-aws, linux-modules-nvidia-550-open-aws, linux-modules-nvidia-525-server-aws, linux-modules-nvidia-525-server-open-aws, linux-objects-nvidia-560-6.11.0-1004-aws, linux-modules-nvidia-560-6.11.0-1004-aws, linux-objects-nvidia-560-open-6.11.0-1004-aws, linux-objects-nvidia-535-server-6.11.0-1004-aws, linux-modules-nvidia-535-server-6.11.0-1004-aws, linux-objects-nvidia-535-server-open-6.11.0-1004-aws, linux-objects-nvidia-550-server-6.11.0-1004-aws, linux-modules-nvidia-550-server-6.11.0-1004-aws, linux-objects-nvidia-550-server-open-6.11.0-1004-aws
+Architecture: amd64 arm64
+Version: 6.11.0-1004.4
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-headers-6.11.0-1004-aws (>= 6.11.0-1004.4) [amd64 arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-aws/+git/oracular
+Directory: pool/restricted/l/linux-restricted-modules-aws
+Package-List:
+ linux-modules-nvidia-525-server-aws deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-open-aws deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-aws deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-open-aws deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-server-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-aws deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-open-aws deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-server-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+Files:
+ a0c22d21e3857fcfcbf898b598339b87 4694 linux-restricted-modules-aws_6.11.0-1004.4.dsc
+ e77713f0f9ff1c74c66360bc6c308c6f 25828 linux-restricted-modules-aws_6.11.0-1004.4.tar.xz
+Checksums-Sha1:
+ 64e922c7cf28869b48bda0eeedf527e6a2346cf8 4694 linux-restricted-modules-aws_6.11.0-1004.4.dsc
+ 8fa07eb0d4d8f01289cdf998a1d2233170bddb84 25828 linux-restricted-modules-aws_6.11.0-1004.4.tar.xz
+Checksums-Sha256:
+ 5099124d6577978ad08f0f95dc9caa204a8fd1f03d46db177e9111d72e38213a 4694 linux-restricted-modules-aws_6.11.0-1004.4.dsc
+ c34c1b10e81954649bb039534b6b1bc94aabac66e428a80d182b47625e5f15ef 25828 linux-restricted-modules-aws_6.11.0-1004.4.tar.xz
+Checksums-Sha512:
+ e51e3f3e3a72613465aa0b74e209518f827a782c019b3cb680d803aa06629f1e14f28a657a36ba85bb5a433108ab26d313425a530d23d4cd50add1b586d625af 4694 linux-restricted-modules-aws_6.11.0-1004.4.dsc
+ cef8e257dbe407f9ccb74b39f6b92cdd31fc2f1e7ff34b2590bea39728e942d9d78c80eaf2d535e8fd15c1da82bd63d79a7b97fdb15072b6a500bf33d15cd2f1 25828 linux-restricted-modules-aws_6.11.0-1004.4.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ nvidia-graphics-drivers-535-server (= 535.183.06-0ubuntu6),
+ nvidia-graphics-drivers-550-server (= 550.90.12-0ubuntu2),
+ nvidia-graphics-drivers-560 (= 560.35.03-0ubuntu5),
+
+Package: linux-restricted-modules-azure
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-560-azure, linux-modules-nvidia-560-open-azure, linux-modules-nvidia-535-server-azure, linux-modules-nvidia-535-server-open-azure, linux-modules-nvidia-550-server-azure, linux-modules-nvidia-550-server-open-azure, linux-modules-nvidia-535-azure, linux-modules-nvidia-550-azure, linux-modules-nvidia-535-open-azure, linux-modules-nvidia-550-open-azure, linux-modules-nvidia-525-server-azure, linux-modules-nvidia-525-server-open-azure, linux-objects-nvidia-560-6.11.0-1004-azure, linux-modules-nvidia-560-6.11.0-1004-azure, linux-objects-nvidia-560-open-6.11.0-1004-azure, linux-objects-nvidia-535-server-6.11.0-1004-azure, linux-modules-nvidia-535-server-6.11.0-1004-azure, linux-objects-nvidia-535-server-open-6.11.0-1004-azure, linux-objects-nvidia-550-server-6.11.0-1004-azure, linux-modules-nvidia-550-server-6.11.0-1004-azure, linux-objects-nvidia-550-server-open-6.11.0-1004-azure
+Architecture: amd64 arm64
+Version: 6.11.0-1004.4
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-headers-6.11.0-1004-azure (>= 6.11.0-1004.4) [amd64 arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-azure/+git/oracular
+Directory: pool/restricted/l/linux-restricted-modules-azure
+Package-List:
+ linux-modules-nvidia-525-server-azure deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-open-azure deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-azure deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-open-azure deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-server-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-azure deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-open-azure deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-server-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+Files:
+ 062bf445338273b0a46e55b6a83fff5b 4827 linux-restricted-modules-azure_6.11.0-1004.4.dsc
+ a12e053c9fd9ba2b28965b365b72621d 23068 linux-restricted-modules-azure_6.11.0-1004.4.tar.xz
+Checksums-Sha1:
+ fe78057e8350ab95de96c222303f8236d0158eeb 4827 linux-restricted-modules-azure_6.11.0-1004.4.dsc
+ 7c8760159b053ecb79d3d4395a453ccae4dd3415 23068 linux-restricted-modules-azure_6.11.0-1004.4.tar.xz
+Checksums-Sha256:
+ 269f3d66d9086e2e93c1cf415123d5137b1d0432176794ab3ef72b3e8ad28e4a 4827 linux-restricted-modules-azure_6.11.0-1004.4.dsc
+ 9b15bba4477c5eba37a71e621f40d6dae7085372e50ac795bebde6ad004b31c4 23068 linux-restricted-modules-azure_6.11.0-1004.4.tar.xz
+Checksums-Sha512:
+ c7a727e1f7bd979a9143a4cc74da311a4dacb1d210b20d3b81d01f49107c3773b2707b8f19653ddc454286ca9e1f54b765aec746be19368f57661b2ac3298ae7 4827 linux-restricted-modules-azure_6.11.0-1004.4.dsc
+ 213278233b41a9def22440cf59ae700a8c573e80db006f1aede44c1c1b14043eef7d38ec2f6de69cac009ba4578a0d7c8d8ffd96297316cb148955ce00650be3 23068 linux-restricted-modules-azure_6.11.0-1004.4.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ nvidia-graphics-drivers-535-server (= 535.183.06-0ubuntu6),
+ nvidia-graphics-drivers-550-server (= 550.90.12-0ubuntu2),
+ nvidia-graphics-drivers-560 (= 560.35.03-0ubuntu5),
+
+Package: linux-restricted-modules-gcp
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-560-gcp, linux-modules-nvidia-560-open-gcp, linux-modules-nvidia-535-server-gcp, linux-modules-nvidia-535-server-open-gcp, linux-modules-nvidia-550-server-gcp, linux-modules-nvidia-550-server-open-gcp, linux-modules-nvidia-535-gcp, linux-modules-nvidia-550-gcp, linux-modules-nvidia-535-open-gcp, linux-modules-nvidia-550-open-gcp, linux-modules-nvidia-525-server-gcp, linux-modules-nvidia-525-server-open-gcp, linux-objects-nvidia-560-6.11.0-1003-gcp, linux-modules-nvidia-560-6.11.0-1003-gcp, linux-objects-nvidia-560-open-6.11.0-1003-gcp, linux-objects-nvidia-535-server-6.11.0-1003-gcp, linux-modules-nvidia-535-server-6.11.0-1003-gcp, linux-objects-nvidia-535-server-open-6.11.0-1003-gcp, linux-objects-nvidia-550-server-6.11.0-1003-gcp, linux-modules-nvidia-550-server-6.11.0-1003-gcp, linux-objects-nvidia-550-server-open-6.11.0-1003-gcp
+Architecture: amd64 arm64
+Version: 6.11.0-1003.3
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-headers-6.11.0-1003-gcp (>= 6.11.0-1003.3) [amd64 arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-gcp/+git/oracular
+Directory: pool/restricted/l/linux-restricted-modules-gcp
+Package-List:
+ linux-modules-nvidia-525-server-gcp deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-open-gcp deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-gcp deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-open-gcp deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-server-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-gcp deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-open-gcp deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-server-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+Files:
+ 9d25b6b4766fc2ef0853283ac5ce9d99 4731 linux-restricted-modules-gcp_6.11.0-1003.3.dsc
+ 3b7bd32feb0e91801edfa9f47d742c81 25848 linux-restricted-modules-gcp_6.11.0-1003.3.tar.xz
+Checksums-Sha1:
+ 4d1d918740dcca8d4cae8cc1414ec26dc5cf60f7 4731 linux-restricted-modules-gcp_6.11.0-1003.3.dsc
+ 18be5125f233715efce62259eb78ed7e51a57a46 25848 linux-restricted-modules-gcp_6.11.0-1003.3.tar.xz
+Checksums-Sha256:
+ a257182639d8b3f1babd5c10876b5fc8d1dffbe5c652013109afcd65c7e6ba2b 4731 linux-restricted-modules-gcp_6.11.0-1003.3.dsc
+ d3275b28996d134ec929ad0a4d00f0b775033d7e629507a118f545c7897200e7 25848 linux-restricted-modules-gcp_6.11.0-1003.3.tar.xz
+Checksums-Sha512:
+ e05c716a8836899d8c9e15d14179a8fc6449bd1c944f5016b89a42d3b00047cea9efef3a31249635f35cca5b47cb0ebad4a0329346e279f00b4f50d94e162608 4731 linux-restricted-modules-gcp_6.11.0-1003.3.dsc
+ f789ccccfcc8c6ff6616072845dbda2daab2772baafed6d36926c0978a0a4ca6bd9e4efb4b92ab6dc3e07a1b54c8b1a536b01dd8bc616ed5b4f69da41a979c45 25848 linux-restricted-modules-gcp_6.11.0-1003.3.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ nvidia-graphics-drivers-535-server (= 535.183.06-0ubuntu6),
+ nvidia-graphics-drivers-550-server (= 550.90.12-0ubuntu2),
+ nvidia-graphics-drivers-560 (= 560.35.03-0ubuntu5),
+
+Package: linux-restricted-modules-lowlatency
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-560-lowlatency, linux-modules-nvidia-560-open-lowlatency, linux-modules-nvidia-535-server-lowlatency, linux-modules-nvidia-535-server-open-lowlatency, linux-modules-nvidia-550-server-lowlatency, linux-modules-nvidia-550-server-open-lowlatency, linux-modules-nvidia-560-lowlatency-64k, linux-modules-nvidia-560-open-lowlatency-64k, linux-modules-nvidia-535-server-lowlatency-64k, linux-modules-nvidia-535-server-open-lowlatency-64k, linux-modules-nvidia-550-server-lowlatency-64k, linux-modules-nvidia-550-server-open-lowlatency-64k, linux-modules-nvidia-535-lowlatency, linux-modules-nvidia-550-lowlatency, linux-modules-nvidia-535-open-lowlatency, linux-modules-nvidia-550-open-lowlatency, linux-modules-nvidia-525-server-lowlatency, linux-modules-nvidia-525-server-open-lowlatency, linux-modules-nvidia-535-lowlatency-64k, linux-modules-nvidia-550-lowlatency-64k, linux-modules-nvidia-535-open-lowlatency-64k, linux-modules-nvidia-550-open-lowlatency-64k,
+ linux-modules-nvidia-525-server-lowlatency-64k, linux-modules-nvidia-525-server-open-lowlatency-64k, linux-objects-nvidia-560-6.11.0-1004-lowlatency, linux-modules-nvidia-560-6.11.0-1004-lowlatency, linux-objects-nvidia-560-open-6.11.0-1004-lowlatency, linux-objects-nvidia-535-server-6.11.0-1004-lowlatency, linux-modules-nvidia-535-server-6.11.0-1004-lowlatency, linux-objects-nvidia-535-server-open-6.11.0-1004-lowlatency, linux-objects-nvidia-550-server-6.11.0-1004-lowlatency, linux-modules-nvidia-550-server-6.11.0-1004-lowlatency, linux-objects-nvidia-550-server-open-6.11.0-1004-lowlatency, linux-objects-nvidia-560-6.11.0-1004-lowlatency-64k, linux-modules-nvidia-560-6.11.0-1004-lowlatency-64k, linux-objects-nvidia-560-open-6.11.0-1004-lowlatency-64k, linux-objects-nvidia-535-server-6.11.0-1004-lowlatency-64k, linux-modules-nvidia-535-server-6.11.0-1004-lowlatency-64k, linux-objects-nvidia-535-server-open-6.11.0-1004-lowlatency-64k,
+ linux-objects-nvidia-550-server-6.11.0-1004-lowlatency-64k, linux-modules-nvidia-550-server-6.11.0-1004-lowlatency-64k,
+ linux-objects-nvidia-550-server-open-6.11.0-1004-lowlatency-64k
+Architecture: amd64 arm64
+Version: 6.11.0-1004.4
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-headers-6.11.0-1004-lowlatency (>= 6.11.0-1004.4) [amd64 arm64], linux-headers-6.11.0-1004-lowlatency-64k (>= 6.11.0-1004.4) [arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-restricted-modules/+git/oracular
+Directory: pool/restricted/l/linux-restricted-modules-lowlatency
+Package-List:
+ linux-modules-nvidia-525-server-lowlatency deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-lowlatency-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-525-server-open-lowlatency deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-open-lowlatency-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-lowlatency deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-lowlatency-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-open-lowlatency deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-open-lowlatency-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-server-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-lowlatency deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-lowlatency-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-open-lowlatency deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-open-lowlatency-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-server-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-open-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+Files:
+ 5a2a58c9e8c0abba160242468c78bcfa 8218 linux-restricted-modules-lowlatency_6.11.0-1004.4.dsc
+ 2461349b0ca599c6b0240780b1be78d3 28564 linux-restricted-modules-lowlatency_6.11.0-1004.4.tar.xz
+Checksums-Sha1:
+ e66af573c6b00822a9bbe7c486af942baf6849cf 8218 linux-restricted-modules-lowlatency_6.11.0-1004.4.dsc
+ cdd6c7eba8f9dbe7f5c06abea406a588f3189a49 28564 linux-restricted-modules-lowlatency_6.11.0-1004.4.tar.xz
+Checksums-Sha256:
+ c25ea1ef1e0118d2fc721a2191e8fdce0e72c878aa764f50c1abc2beee960b08 8218 linux-restricted-modules-lowlatency_6.11.0-1004.4.dsc
+ a110e06bcc37d39553bf13398d3f7631cf2f79328ef2cb99fe007bb3c71548cc 28564 linux-restricted-modules-lowlatency_6.11.0-1004.4.tar.xz
+Checksums-Sha512:
+ 32208d59786a4f411814e46bdcd1d00ef55b8581b66021ad5ae243959e71751c2de26036441e61d5891c6fdbf39b57b0db065ec416ef40d2c4de6696f6c4949b 8218 linux-restricted-modules-lowlatency_6.11.0-1004.4.dsc
+ ac2d52e366c3e391d54b6a69164d23f78220cdbb9d4b92dc7dea3c8623b451137abc8339cee21a630cab596fcfadf6f040a31c1f7144d1ce879269c19ada1d38 28564 linux-restricted-modules-lowlatency_6.11.0-1004.4.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ nvidia-graphics-drivers-535-server (= 535.183.06-0ubuntu6),
+ nvidia-graphics-drivers-550-server (= 550.90.12-0ubuntu2),
+ nvidia-graphics-drivers-560 (= 560.35.03-0ubuntu5),
+
+Package: linux-restricted-modules-oracle
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-560-oracle, linux-modules-nvidia-560-open-oracle, linux-modules-nvidia-535-server-oracle, linux-modules-nvidia-535-server-open-oracle, linux-modules-nvidia-550-server-oracle, linux-modules-nvidia-550-server-open-oracle, linux-modules-nvidia-560-oracle-64k, linux-modules-nvidia-560-open-oracle-64k, linux-modules-nvidia-535-server-oracle-64k, linux-modules-nvidia-535-server-open-oracle-64k, linux-modules-nvidia-550-server-oracle-64k, linux-modules-nvidia-550-server-open-oracle-64k, linux-modules-nvidia-535-oracle, linux-modules-nvidia-550-oracle, linux-modules-nvidia-535-open-oracle, linux-modules-nvidia-550-open-oracle, linux-modules-nvidia-525-server-oracle, linux-modules-nvidia-525-server-open-oracle, linux-modules-nvidia-535-oracle-64k, linux-modules-nvidia-550-oracle-64k, linux-modules-nvidia-535-open-oracle-64k, linux-modules-nvidia-550-open-oracle-64k, linux-modules-nvidia-525-server-oracle-64k,
+ linux-modules-nvidia-525-server-open-oracle-64k, linux-objects-nvidia-560-6.11.0-1006-oracle, linux-modules-nvidia-560-6.11.0-1006-oracle, linux-objects-nvidia-560-open-6.11.0-1006-oracle, linux-objects-nvidia-535-server-6.11.0-1006-oracle, linux-modules-nvidia-535-server-6.11.0-1006-oracle, linux-objects-nvidia-535-server-open-6.11.0-1006-oracle, linux-objects-nvidia-550-server-6.11.0-1006-oracle, linux-modules-nvidia-550-server-6.11.0-1006-oracle, linux-objects-nvidia-550-server-open-6.11.0-1006-oracle, linux-objects-nvidia-560-6.11.0-1006-oracle-64k, linux-modules-nvidia-560-6.11.0-1006-oracle-64k, linux-objects-nvidia-560-open-6.11.0-1006-oracle-64k, linux-objects-nvidia-535-server-6.11.0-1006-oracle-64k, linux-modules-nvidia-535-server-6.11.0-1006-oracle-64k, linux-objects-nvidia-535-server-open-6.11.0-1006-oracle-64k, linux-objects-nvidia-550-server-6.11.0-1006-oracle-64k, linux-modules-nvidia-550-server-6.11.0-1006-oracle-64k,
+ linux-objects-nvidia-550-server-open-6.11.0-1006-oracle-64k
+Architecture: amd64 arm64
+Version: 6.11.0-1006.6
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-headers-6.11.0-1006-oracle (>= 6.11.0-1006.6) [amd64 arm64], linux-headers-6.11.0-1006-oracle-64k (>= 6.11.0-1006.6) [arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-oracle/+git/oracular
+Directory: pool/restricted/l/linux-restricted-modules-oracle
+Package-List:
+ linux-modules-nvidia-525-server-open-oracle deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-open-oracle-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-525-server-oracle deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-525-server-oracle-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-open-oracle deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-open-oracle-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-oracle deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-535-oracle-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-535-server-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-535-server-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-open-oracle deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-open-oracle-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-oracle deb oldlibs optional arch=amd64,arm64
+ linux-modules-nvidia-550-oracle-64k deb oldlibs optional arch=arm64
+ linux-modules-nvidia-550-server-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-open-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-535-server-open-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-550-server-open-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-objects-nvidia-560-open-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+Files:
+ d3f56874ec0fdd45b1cfc52813dae284 7867 linux-restricted-modules-oracle_6.11.0-1006.6.dsc
+ eafb8ef682a8accbc0d1a194019ac0bb 26156 linux-restricted-modules-oracle_6.11.0-1006.6.tar.xz
+Checksums-Sha1:
+ d0aaa674b672e6e7e170435097f2af06b11a3879 7867 linux-restricted-modules-oracle_6.11.0-1006.6.dsc
+ b81b157eae853eb9a47865382ebe3f2dc6c6f06f 26156 linux-restricted-modules-oracle_6.11.0-1006.6.tar.xz
+Checksums-Sha256:
+ 1852d637c934968ae8762cad96ed7d7b3c55ebd3b4cc386419423d6a71fbec23 7867 linux-restricted-modules-oracle_6.11.0-1006.6.dsc
+ d8d2b4a82bf8c6a70e03d477ec89352ac76e69a8acc9897191d2688cae0ba8f9 26156 linux-restricted-modules-oracle_6.11.0-1006.6.tar.xz
+Checksums-Sha512:
+ 3b8d23287242e1317cc13a76277d71afc41920b2e58b8ae4a673fe6d916f347b33e87725db2a6fc3baf7bb359a1f943537c886756bdac7babc2d276097617044 7867 linux-restricted-modules-oracle_6.11.0-1006.6.dsc
+ f61f38c9f26fa97effee4737504f86b0c45f7e30257d74980410d04180353c8fbfc23a65e2304e55e059f1a46506beb37007f2e2f2b8ab1505d56936dc749e0c 26156 linux-restricted-modules-oracle_6.11.0-1006.6.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ nvidia-graphics-drivers-535-server (= 535.183.06-0ubuntu6),
+ nvidia-graphics-drivers-550-server (= 550.90.12-0ubuntu2),
+ nvidia-graphics-drivers-560 (= 560.35.03-0ubuntu5),
+
+Package: linux-restricted-signatures
+Format: 3.0 (native)
+Binary: linux-signatures-nvidia-6.11.0-8-generic, linux-signatures-nvidia-6.11.0-8-generic-64k, linux-modules-nvidia-560-open-6.11.0-8-generic, linux-modules-nvidia-535-server-open-6.11.0-8-generic, linux-modules-nvidia-550-server-open-6.11.0-8-generic, linux-modules-nvidia-560-open-6.11.0-8-generic-64k, linux-modules-nvidia-535-server-open-6.11.0-8-generic-64k, linux-modules-nvidia-550-server-open-6.11.0-8-generic-64k
+Architecture: amd64 arm64
+Version: 6.11.0-8.8+2
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-restricted-generate (= 6.11.0-8.8+2), linux-objects-nvidia-560-open-6.11.0-8-generic (>= 6.11.0-8.8+2) [amd64 arm64], linux-objects-nvidia-535-server-open-6.11.0-8-generic (>= 6.11.0-8.8+2) [amd64 arm64], linux-objects-nvidia-550-server-open-6.11.0-8-generic (>= 6.11.0-8.8+2) [amd64 arm64], linux-objects-nvidia-560-open-6.11.0-8-generic-64k (>= 6.11.0-8.8+2) [arm64], linux-objects-nvidia-535-server-open-6.11.0-8-generic-64k (>= 6.11.0-8.8+2) [arm64], linux-objects-nvidia-550-server-open-6.11.0-8-generic-64k (>= 6.11.0-8.8+2) [arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-restricted-modules/+git/oracular
+Directory: pool/restricted/l/linux-restricted-signatures
+Package-List:
+ linux-modules-nvidia-535-server-open-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-8-generic deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-8-generic-64k deb kernel optional arch=arm64 profile=!stage1
+Files:
+ 11bcf75e263ac079047afb472d2e4276 3303 linux-restricted-signatures_6.11.0-8.8+2.dsc
+ 9a6175f281a0548dd0f6e4d5034bdfaf 10800 linux-restricted-signatures_6.11.0-8.8+2.tar.xz
+Checksums-Sha1:
+ 0f853cea498fcfab273f20a49eef559fb1f6c0bd 3303 linux-restricted-signatures_6.11.0-8.8+2.dsc
+ 221c4324884beb89e185529bfe475497c20f092d 10800 linux-restricted-signatures_6.11.0-8.8+2.tar.xz
+Checksums-Sha256:
+ 40cc85a9e5cc5413f80c86a41ca51dd27a5dbd388e197d0d928c9ffb7af10239 3303 linux-restricted-signatures_6.11.0-8.8+2.dsc
+ 477115fba024487d6f66aa3cbd65f32928cfb716b2953883fa43fcc89b14f75d 10800 linux-restricted-signatures_6.11.0-8.8+2.tar.xz
+Checksums-Sha512:
+ 3bbfc218337a6b227c5e8ea5dc69157d7f5f192cecb7e514e17e7242efb7cb6bb2b468ec8db642557983ef673cc7e8b1bc95ac5c0d31f03e6ffee01cc45c32d5 3303 linux-restricted-signatures_6.11.0-8.8+2.dsc
+ 2db03a3e0804a484e74e3901bc102428cd6d92ca16b9e1f935c42140ee4011e7b8110ee86046c2c0943af32f14117d9d10a28ee8680b3051a740e16beb6ec0e0 10800 linux-restricted-signatures_6.11.0-8.8+2.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ @BUILT-USING@
+
+Package: linux-restricted-signatures-aws
+Format: 3.0 (native)
+Binary: linux-signatures-nvidia-6.11.0-1004-aws, linux-modules-nvidia-560-open-6.11.0-1004-aws, linux-modules-nvidia-535-server-open-6.11.0-1004-aws, linux-modules-nvidia-550-server-open-6.11.0-1004-aws
+Architecture: amd64 arm64
+Version: 6.11.0-1004.4
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-restricted-generate-aws (= 6.11.0-1004.4), linux-objects-nvidia-560-open-6.11.0-1004-aws (>= 6.11.0-1004.4) [amd64 arm64], linux-objects-nvidia-535-server-open-6.11.0-1004-aws (>= 6.11.0-1004.4) [amd64 arm64], linux-objects-nvidia-550-server-open-6.11.0-1004-aws (>= 6.11.0-1004.4) [amd64 arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-aws/+git/oracular
+Directory: pool/restricted/l/linux-restricted-signatures-aws
+Package-List:
+ linux-modules-nvidia-535-server-open-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-1004-aws deb kernel optional arch=amd64,arm64 profile=!stage1
+Files:
+ a363029f3c0a632d6d04cc0c91867fa2 2459 linux-restricted-signatures-aws_6.11.0-1004.4.dsc
+ a06546562f85aefdb104afb8f1dbd113 10576 linux-restricted-signatures-aws_6.11.0-1004.4.tar.xz
+Checksums-Sha1:
+ 0666e69ec86d4c44939929c478653e936365032e 2459 linux-restricted-signatures-aws_6.11.0-1004.4.dsc
+ 317b9069ccca608e40ca5130e87a97cb4a612343 10576 linux-restricted-signatures-aws_6.11.0-1004.4.tar.xz
+Checksums-Sha256:
+ 420c896c087e6fd7c86f07f7a5c45a93064d97cf4e75d1e7ebda6a0ec66412ae 2459 linux-restricted-signatures-aws_6.11.0-1004.4.dsc
+ 84dfe3b301744e3b910a259d5f5a2fb3dfb4c9999097efbeefb7d97c8d42d865 10576 linux-restricted-signatures-aws_6.11.0-1004.4.tar.xz
+Checksums-Sha512:
+ 5cc05b9b5b448ebe58cc1f13b1112f63b2559ea385a39bf309c92cb3af91b27b524cfd36288917fdb8c1e6af83c18319a783e5cfb09d872e3cd7e231295cd075 2459 linux-restricted-signatures-aws_6.11.0-1004.4.dsc
+ 7a782ff59784c7c900140a1bd310f155435509c3ba81cd0909a5702d22e16ebfdda5035c558fba76f49d3612a682773d58d422e3881d39999222e3d14a28e348 10576 linux-restricted-signatures-aws_6.11.0-1004.4.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ @BUILT-USING@
+
+Package: linux-restricted-signatures-azure
+Format: 3.0 (native)
+Binary: linux-signatures-nvidia-6.11.0-1004-azure, linux-modules-nvidia-560-open-6.11.0-1004-azure, linux-modules-nvidia-535-server-open-6.11.0-1004-azure, linux-modules-nvidia-550-server-open-6.11.0-1004-azure
+Architecture: amd64 arm64
+Version: 6.11.0-1004.4
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-restricted-generate-azure (= 6.11.0-1004.4), linux-objects-nvidia-560-open-6.11.0-1004-azure (>= 6.11.0-1004.4) [amd64 arm64], linux-objects-nvidia-535-server-open-6.11.0-1004-azure (>= 6.11.0-1004.4) [amd64 arm64], linux-objects-nvidia-550-server-open-6.11.0-1004-azure (>= 6.11.0-1004.4) [amd64 arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-azure/+git/oracular
+Directory: pool/restricted/l/linux-restricted-signatures-azure
+Package-List:
+ linux-modules-nvidia-535-server-open-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-1004-azure deb kernel optional arch=amd64,arm64 profile=!stage1
+Files:
+ ab79ce3d8170d0406afca976da30e26b 2493 linux-restricted-signatures-azure_6.11.0-1004.4.dsc
+ a95d0f2c4ac23802e519acc1b333f907 10608 linux-restricted-signatures-azure_6.11.0-1004.4.tar.xz
+Checksums-Sha1:
+ 6616cf1472273dda9b833f0d69da8d93cc9be665 2493 linux-restricted-signatures-azure_6.11.0-1004.4.dsc
+ eb44ca3e67260bfa3a7752b509cd32a6bdb52475 10608 linux-restricted-signatures-azure_6.11.0-1004.4.tar.xz
+Checksums-Sha256:
+ da588091e11e61fd4f8558ccaedb25dffbf70c4930e7002fab55cbe53b87a081 2493 linux-restricted-signatures-azure_6.11.0-1004.4.dsc
+ a18d2ff03def1a825c58bc555e5fa9cdf2b167572bbe4b0842250f2d90cce9e5 10608 linux-restricted-signatures-azure_6.11.0-1004.4.tar.xz
+Checksums-Sha512:
+ d9e50463281cbf95000b82ab36c24770237335ded5cec6ea97b08a4848fe60bc5ab1924f9f06190e67755c346da800e056dcdc92b7ee16de9282fa27175520b9 2493 linux-restricted-signatures-azure_6.11.0-1004.4.dsc
+ b6a69871a5b1a6e5ed3d6072346c7d392d821b861bbdd772df6238c8b24eee646af63d6e31ac634e703558002836f34c85aea5da9be5021c45994c9c0ddbf7e0 10608 linux-restricted-signatures-azure_6.11.0-1004.4.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ @BUILT-USING@
+
+Package: linux-restricted-signatures-gcp
+Format: 3.0 (native)
+Binary: linux-signatures-nvidia-6.11.0-1003-gcp, linux-modules-nvidia-560-open-6.11.0-1003-gcp, linux-modules-nvidia-535-server-open-6.11.0-1003-gcp, linux-modules-nvidia-550-server-open-6.11.0-1003-gcp
+Architecture: amd64 arm64
+Version: 6.11.0-1003.3
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-restricted-generate-gcp (= 6.11.0-1003.3), linux-objects-nvidia-560-open-6.11.0-1003-gcp (>= 6.11.0-1003.3) [amd64 arm64], linux-objects-nvidia-535-server-open-6.11.0-1003-gcp (>= 6.11.0-1003.3) [amd64 arm64], linux-objects-nvidia-550-server-open-6.11.0-1003-gcp (>= 6.11.0-1003.3) [amd64 arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-gcp/+git/oracular
+Directory: pool/restricted/l/linux-restricted-signatures-gcp
+Package-List:
+ linux-modules-nvidia-535-server-open-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-1003-gcp deb kernel optional arch=amd64,arm64 profile=!stage1
+Files:
+ de3cfb6b3f2009b7218df3c10c5c0ab0 2459 linux-restricted-signatures-gcp_6.11.0-1003.3.dsc
+ 7d0542cb280cda238ae1ba866fa59752 10656 linux-restricted-signatures-gcp_6.11.0-1003.3.tar.xz
+Checksums-Sha1:
+ bad670b21e0ad8220b99af6603258ed96a944856 2459 linux-restricted-signatures-gcp_6.11.0-1003.3.dsc
+ 153739fba5a8a793ff09395ecaa14ec5bf40787d 10656 linux-restricted-signatures-gcp_6.11.0-1003.3.tar.xz
+Checksums-Sha256:
+ baddc3ab877331aed0c4fd14e4560ca5bc2010efcd9dc72fa241474f91c8d1d7 2459 linux-restricted-signatures-gcp_6.11.0-1003.3.dsc
+ 335226be7834a1057b335c0aa59086e11a61e339bd2d75b91ac63056f0fc8e74 10656 linux-restricted-signatures-gcp_6.11.0-1003.3.tar.xz
+Checksums-Sha512:
+ e159daa51b6cf6ef4066947fc0aaad2a9183d576e94da410bd62056a794ed248018ee5ee8e429ccddf8f1cd6c8989ee411dfb6fb312f921561cd4a9e73d8aaba 2459 linux-restricted-signatures-gcp_6.11.0-1003.3.dsc
+ 81a51f3f3cbd81d3812ecb00010902ee2dcd78602f9971e712302e9d5a23db04d07915a38132d2fc11daecbcf956e13d98fc170a481a841344c0698a745510f7 10656 linux-restricted-signatures-gcp_6.11.0-1003.3.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ @BUILT-USING@
+
+Package: linux-restricted-signatures-lowlatency
+Format: 3.0 (native)
+Binary: linux-signatures-nvidia-6.11.0-1004-lowlatency, linux-signatures-nvidia-6.11.0-1004-lowlatency-64k, linux-modules-nvidia-560-open-6.11.0-1004-lowlatency, linux-modules-nvidia-535-server-open-6.11.0-1004-lowlatency, linux-modules-nvidia-550-server-open-6.11.0-1004-lowlatency, linux-modules-nvidia-560-open-6.11.0-1004-lowlatency-64k, linux-modules-nvidia-535-server-open-6.11.0-1004-lowlatency-64k, linux-modules-nvidia-550-server-open-6.11.0-1004-lowlatency-64k
+Architecture: amd64 arm64
+Version: 6.11.0-1004.4
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-restricted-generate-lowlatency (= 6.11.0-1004.4), linux-objects-nvidia-560-open-6.11.0-1004-lowlatency (>= 6.11.0-1004.4) [amd64 arm64], linux-objects-nvidia-535-server-open-6.11.0-1004-lowlatency (>= 6.11.0-1004.4) [amd64 arm64], linux-objects-nvidia-550-server-open-6.11.0-1004-lowlatency (>= 6.11.0-1004.4) [amd64 arm64], linux-objects-nvidia-560-open-6.11.0-1004-lowlatency-64k (>= 6.11.0-1004.4) [arm64], linux-objects-nvidia-535-server-open-6.11.0-1004-lowlatency-64k (>= 6.11.0-1004.4) [arm64], linux-objects-nvidia-550-server-open-6.11.0-1004-lowlatency-64k (>= 6.11.0-1004.4) [arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-restricted-modules/+git/oracular
+Directory: pool/restricted/l/linux-restricted-signatures-lowlatency
+Package-List:
+ linux-modules-nvidia-535-server-open-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-1004-lowlatency deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-1004-lowlatency-64k deb kernel optional arch=arm64 profile=!stage1
+Files:
+ 162081132fcb32da831bb05fda92b290 3501 linux-restricted-signatures-lowlatency_6.11.0-1004.4.dsc
+ 85e9b759cfc747b2aa400fe93eff7c29 10744 linux-restricted-signatures-lowlatency_6.11.0-1004.4.tar.xz
+Checksums-Sha1:
+ dfa6d38dfb37f4be5b9f7b914af422ad7c3f9fb3 3501 linux-restricted-signatures-lowlatency_6.11.0-1004.4.dsc
+ 2c13c61f396068d92d4bd93611913200a5f684a4 10744 linux-restricted-signatures-lowlatency_6.11.0-1004.4.tar.xz
+Checksums-Sha256:
+ 9531f7f64ca6c816a9f55f8813ece8efb47d58adce2a2b27fb255b5e8387a57b 3501 linux-restricted-signatures-lowlatency_6.11.0-1004.4.dsc
+ 617e5373a550cec687d21eed1a011d1ad0a5586b2318df9e798d36326fb27c43 10744 linux-restricted-signatures-lowlatency_6.11.0-1004.4.tar.xz
+Checksums-Sha512:
+ 4b1aed3e11535520b61ad44d804fd642df45fdc4598581341f3c2c62cb86565a8949cfdb83cbf749d45edace57e1773f087bdd4792c98dc136aad8e18940c089 3501 linux-restricted-signatures-lowlatency_6.11.0-1004.4.dsc
+ db830f0d2820bd0061aa76734044612a9be3c89ce98e9d2617825f7b85ffbc8de8beb7572ed8eed6bf97f0b4f894b6b1114bcba19cd440bbc199a7734f75ff86 10744 linux-restricted-signatures-lowlatency_6.11.0-1004.4.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ @BUILT-USING@
+
+Package: linux-restricted-signatures-oracle
+Format: 3.0 (native)
+Binary: linux-signatures-nvidia-6.11.0-1006-oracle, linux-signatures-nvidia-6.11.0-1006-oracle-64k, linux-modules-nvidia-560-open-6.11.0-1006-oracle, linux-modules-nvidia-535-server-open-6.11.0-1006-oracle, linux-modules-nvidia-550-server-open-6.11.0-1006-oracle, linux-modules-nvidia-560-open-6.11.0-1006-oracle-64k, linux-modules-nvidia-535-server-open-6.11.0-1006-oracle-64k, linux-modules-nvidia-550-server-open-6.11.0-1006-oracle-64k
+Architecture: amd64 arm64
+Version: 6.11.0-1006.6
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Build-Depends-Arch: cpio, curl, dkms, gawk, linux-restricted-generate-oracle (= 6.11.0-1006.6), linux-objects-nvidia-560-open-6.11.0-1006-oracle (>= 6.11.0-1006.6) [amd64 arm64], linux-objects-nvidia-535-server-open-6.11.0-1006-oracle (>= 6.11.0-1006.6) [amd64 arm64], linux-objects-nvidia-550-server-open-6.11.0-1006-oracle (>= 6.11.0-1006.6) [amd64 arm64], linux-objects-nvidia-560-open-6.11.0-1006-oracle-64k (>= 6.11.0-1006.6) [arm64], linux-objects-nvidia-535-server-open-6.11.0-1006-oracle-64k (>= 6.11.0-1006.6) [arm64], linux-objects-nvidia-550-server-open-6.11.0-1006-oracle-64k (>= 6.11.0-1006.6) [arm64], lsb-release, python3, python3-apt
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-oracle/+git/oracular
+Directory: pool/restricted/l/linux-restricted-signatures-oracle
+Package-List:
+ linux-modules-nvidia-535-server-open-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-535-server-open-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-550-server-open-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-modules-nvidia-560-open-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-1006-oracle deb kernel optional arch=amd64,arm64 profile=!stage1
+ linux-signatures-nvidia-6.11.0-1006-oracle-64k deb kernel optional arch=arm64 profile=!stage1
+Files:
+ c7e895ac6fc7f2cb8ced6fdc9e9cb153 3403 linux-restricted-signatures-oracle_6.11.0-1006.6.dsc
+ 1ac59bc448be5e9ac51e1a3b19711461 10676 linux-restricted-signatures-oracle_6.11.0-1006.6.tar.xz
+Checksums-Sha1:
+ d8ebdc9642ec30881d350ebcab6a8927cc9c31cb 3403 linux-restricted-signatures-oracle_6.11.0-1006.6.dsc
+ 2650b25ff3425d3ae9db5588e3fc72e2f169e95b 10676 linux-restricted-signatures-oracle_6.11.0-1006.6.tar.xz
+Checksums-Sha256:
+ 5206320ffddf21991b7a3189105b4b073da406c0e6da852164563689738a2115 3403 linux-restricted-signatures-oracle_6.11.0-1006.6.dsc
+ f0f4b9f8320fdb9168f337532d260834d53034ba70cc632eaca0e91e35132ded 10676 linux-restricted-signatures-oracle_6.11.0-1006.6.tar.xz
+Checksums-Sha512:
+ 10ca21e59340bd08252c83e6868abc054fe6ea2904fa080afd5c7fc37c99a05cf78522d91565cbe8660899d4258652276c3bdaf8c5a8e7c5641030f92011396e 3403 linux-restricted-signatures-oracle_6.11.0-1006.6.dsc
+ 9155e29e086d6316d6a69143622154b6d57ca67d7494e8c812d470e2aa2262f4f941000f78349def128984a01a9c06a416d919c27bd21fef05ed3587813303cb 10676 linux-restricted-signatures-oracle_6.11.0-1006.6.tar.xz
+Ubuntu-Nvidia-Dependencies:
+ @BUILT-USING@
+
+Package: nvidia-graphics-drivers-535
+Format: 3.0 (quilt)
+Binary: nvidia-driver-535, nvidia-kernel-source-535, nvidia-dkms-535, nvidia-utils-535, libnvidia-compute-535, nvidia-compute-utils-535, nvidia-headless-no-dkms-535, nvidia-headless-535, nvidia-kernel-common-535, libnvidia-gl-535, libnvidia-common-535, libnvidia-extra-535, xserver-xorg-video-nvidia-535, libnvidia-cfg1-535, libnvidia-fbc1-535, libnvidia-decode-535, libnvidia-encode-535, nvidia-driver-535-open, nvidia-kernel-source-535-open, nvidia-dkms-535-open, nvidia-headless-no-dkms-535-open, nvidia-headless-535-open, nvidia-driver-530, nvidia-kernel-source-530, nvidia-dkms-530, nvidia-utils-530, libnvidia-compute-530, nvidia-compute-utils-530, nvidia-headless-no-dkms-530, nvidia-headless-530, nvidia-kernel-common-530, libnvidia-gl-530, libnvidia-common-530, libnvidia-extra-530, xserver-xorg-video-nvidia-530, libnvidia-cfg1-530, libnvidia-fbc1-530, libnvidia-decode-530, libnvidia-encode-530, nvidia-driver-530-open, nvidia-kernel-source-530-open, nvidia-dkms-530-open,
+ nvidia-headless-no-dkms-530-open,
+ nvidia-headless-530-open
+Architecture: amd64 arm64 i386 all
+Version: 535.183.01-0ubuntu3
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 12), dpkg-dev (>= 1.17.11~), xz-utils, zstd, dkms, libxext6, po-debconf, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev, libkmod-dev, libpciaccess-dev, pkg-config, libnvidia-egl-wayland1, libc6, libx11-6, python3
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/535
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-535
+Package-List:
+ libnvidia-cfg1-530 deb non-free/libs optional arch=amd64,arm64
+ libnvidia-cfg1-535 deb non-free/oldlibs optional arch=amd64,arm64
+ libnvidia-common-530 deb non-free/libs optional arch=all
+ libnvidia-common-535 deb non-free/oldlibs optional arch=all
+ libnvidia-compute-530 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-compute-535 deb non-free/oldlibs optional arch=i386,amd64,arm64
+ libnvidia-decode-530 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-decode-535 deb non-free/oldlibs optional arch=i386,amd64,arm64
+ libnvidia-encode-530 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-encode-535 deb non-free/oldlibs optional arch=i386,amd64,arm64
+ libnvidia-extra-530 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-extra-535 deb non-free/oldlibs optional arch=i386,amd64,arm64
+ libnvidia-fbc1-530 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-fbc1-535 deb non-free/oldlibs optional arch=i386,amd64,arm64
+ libnvidia-gl-530 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-gl-535 deb non-free/oldlibs optional arch=i386,amd64,arm64
+ nvidia-compute-utils-530 deb non-free/libs optional arch=amd64,arm64
+ nvidia-compute-utils-535 deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-dkms-530 deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-530-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-535 deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-dkms-535-open deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-driver-530 deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-530-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-535 deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-driver-535-open deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-headless-530 deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-530-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-535 deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-headless-535-open deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-530 deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-530-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-535 deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-535-open deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-kernel-common-530 deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-common-535 deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-kernel-source-530 deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-530-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-535 deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-kernel-source-535-open deb non-free/oldlibs optional arch=amd64,arm64
+ nvidia-utils-530 deb non-free/libs optional arch=amd64,arm64
+ nvidia-utils-535 deb non-free/oldlibs optional arch=amd64,arm64
+ xserver-xorg-video-nvidia-530 deb non-free/libs optional arch=amd64,arm64
+ xserver-xorg-video-nvidia-535 deb non-free/oldlibs optional arch=amd64,arm64
+Files:
+ 8cceb60168c7804cd736f62f2bd86b44 7469 nvidia-graphics-drivers-535_535.183.01-0ubuntu3.dsc
+ 1ddbadc7310da154d072eb895bb8eec5 340390268 nvidia-graphics-drivers-535_535.183.01.orig-amd64.tar.gz
+ 6396f7d1d409a6cd7ba774e741e30b13 269450058 nvidia-graphics-drivers-535_535.183.01.orig-arm64.tar.gz
+ 38f9e6cb8e1ebcfb7a243bc7c37b8850 12850167 nvidia-graphics-drivers-535_535.183.01.orig-kernelsrc.tar.gz
+ fe031a4a1241fe2cca8fbc2dd93587fc 134 nvidia-graphics-drivers-535_535.183.01.orig.tar.gz
+ 8f0cfc1e8899594c43965ec84cab6abe 49192 nvidia-graphics-drivers-535_535.183.01-0ubuntu3.debian.tar.xz
+Checksums-Sha1:
+ 59fbbc0bd905693ce2fc53811e43faba2be065bd 7469 nvidia-graphics-drivers-535_535.183.01-0ubuntu3.dsc
+ 1ad8359b33c218c78d0d5e8850bd1bcc2668b848 340390268 nvidia-graphics-drivers-535_535.183.01.orig-amd64.tar.gz
+ 2fd1972b0f2f4a1495d8f7737f90eb5760342ad5 269450058 nvidia-graphics-drivers-535_535.183.01.orig-arm64.tar.gz
+ e4ef051a7ea7b106d1ff848078c5b650f2bea9a3 12850167 nvidia-graphics-drivers-535_535.183.01.orig-kernelsrc.tar.gz
+ 68934bf2b58a80ef28cf0fcfd39171e71c0cc482 134 nvidia-graphics-drivers-535_535.183.01.orig.tar.gz
+ 78711cf709bdd5d6bce8c11be7740ee7e4087272 49192 nvidia-graphics-drivers-535_535.183.01-0ubuntu3.debian.tar.xz
+Checksums-Sha256:
+ a9ad85f60d346eea0481b9ee4ac2b061ec24e94e8f1392c5b4ea9c96b6b0a167 7469 nvidia-graphics-drivers-535_535.183.01-0ubuntu3.dsc
+ 60e6e6889cb4ce4274cc6cf025c30a6b906b96e42b9d6dc411a075a237b3211c 340390268 nvidia-graphics-drivers-535_535.183.01.orig-amd64.tar.gz
+ 29067cf439748aeef63666965ab3d873144f0490eea74900a51910f37aea736d 269450058 nvidia-graphics-drivers-535_535.183.01.orig-arm64.tar.gz
+ b9db1d265a0fbc64a01f50690c9c6d54912689159b90a0e067d0a6cf8e6d509f 12850167 nvidia-graphics-drivers-535_535.183.01.orig-kernelsrc.tar.gz
+ 1cae72ea8a1405cfb1c9e3adb3d7f51e12bd71d0f1310ae98b3afc7e2904a34b 134 nvidia-graphics-drivers-535_535.183.01.orig.tar.gz
+ 1f64ffaab8a21fc3682916574e162a102494fe813bf3ca17cb67dafb338cf955 49192 nvidia-graphics-drivers-535_535.183.01-0ubuntu3.debian.tar.xz
+Checksums-Sha512:
+ 1f79255008685c654d4a9fc17728b29c0bb81ee5116712867e532635eafe5dfaf7458216fd188cd5be4423c0c1759b72b0600c091250de218bb7de380207fef0 7469 nvidia-graphics-drivers-535_535.183.01-0ubuntu3.dsc
+ 640a3a98565e31cd3648d9f1f95217dd123038e581b7b672f6ac5e6ec67d8837bc9db28ff7dc9f6f7836abe0cde667ff74c70decf37479b5f683c2f548070426 340390268 nvidia-graphics-drivers-535_535.183.01.orig-amd64.tar.gz
+ f1614860d676dc5cd24bcd1620fa3cf1d59c95ac0173e6ccfadb19453b5677e7c9138370ba7f9fadfa6f1211a7e0cd80e70ae2f516193bbb6eaf5d84dfcbb92e 269450058 nvidia-graphics-drivers-535_535.183.01.orig-arm64.tar.gz
+ 3f32344a642524c67781338b4f23e795c7d220c80ea75ef84bc15db278d524578c4ba9ab00c71e6015feb0372027aa81401eab01a67ea41b2dbd8faf34865408 12850167 nvidia-graphics-drivers-535_535.183.01.orig-kernelsrc.tar.gz
+ 6dfa63e0718121349e947766f62c9cad1c27cf36c07748297f5937e30a66d8bef3f9648306094a839715fde85fa301b27dc84aaf857fb89466b6989e4720fac2 134 nvidia-graphics-drivers-535_535.183.01.orig.tar.gz
+ 6d79181364041fa00ee2e90a5103f022fe0aa6e97d1b775b678df262ecac81b3d6e8c887166535f0f251b62885e77504bfb54a0f0968225875e273bb5e20d0a6 49192 nvidia-graphics-drivers-535_535.183.01-0ubuntu3.debian.tar.xz
+Autobuild: yes
+
+Package: nvidia-graphics-drivers-535-server
+Format: 3.0 (quilt)
+Binary: nvidia-driver-535-server, nvidia-kernel-source-535-server, nvidia-dkms-535-server, nvidia-utils-535-server, libnvidia-compute-535-server, nvidia-compute-utils-535-server, nvidia-headless-no-dkms-535-server, nvidia-headless-535-server, nvidia-kernel-common-535-server, nvidia-firmware-535-server-535.183.06, libnvidia-gl-535-server, libnvidia-common-535-server, libnvidia-extra-535-server, xserver-xorg-video-nvidia-535-server, libnvidia-cfg1-535-server, libnvidia-fbc1-535-server, libnvidia-decode-535-server, libnvidia-encode-535-server, nvidia-driver-535-server-open, nvidia-kernel-source-535-server-open, nvidia-dkms-535-server-open, nvidia-headless-no-dkms-535-server-open, nvidia-headless-535-server-open
+Architecture: amd64 arm64 i386 all
+Version: 535.183.06-0ubuntu6
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 12), dpkg-dev (>= 1.17.11~), xz-utils, zstd, dkms, libxext6, po-debconf, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev, libkmod-dev, libpciaccess-dev, pkg-config, libnvidia-egl-wayland1, libc6, libx11-6, python3
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/535-server
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-535-server
+Package-List:
+ libnvidia-cfg1-535-server deb non-free/libs optional arch=amd64,arm64
+ libnvidia-common-535-server deb non-free/libs optional arch=all
+ libnvidia-compute-535-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-decode-535-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-encode-535-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-extra-535-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-fbc1-535-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-gl-535-server deb non-free/libs optional arch=i386,amd64,arm64
+ nvidia-compute-utils-535-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-535-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-535-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-535-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-535-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-firmware-535-server-535.183.06 deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-535-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-535-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-535-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-535-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-common-535-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-535-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-535-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-utils-535-server deb non-free/libs optional arch=amd64,arm64
+ xserver-xorg-video-nvidia-535-server deb non-free/x11 optional arch=amd64,arm64
+Files:
+ 7bfb02c0d30d272aba327970ad5f68c6 5923 nvidia-graphics-drivers-535-server_535.183.06-0ubuntu6.dsc
+ e5de3595b49fbec9ea351e4c0a38988e 340467594 nvidia-graphics-drivers-535-server_535.183.06.orig-amd64.tar.gz
+ 61cc25b23f0bb05cb7bb3f00e3f9d337 269496252 nvidia-graphics-drivers-535-server_535.183.06.orig-arm64.tar.gz
+ 25d23dc669ac43f79bcf29d9253124f0 12520139 nvidia-graphics-drivers-535-server_535.183.06.orig-kernelsrc.tar.gz
+ fe031a4a1241fe2cca8fbc2dd93587fc 134 nvidia-graphics-drivers-535-server_535.183.06.orig.tar.gz
+ 0a5d884c24429be58111b1bd0099eb8f 68928 nvidia-graphics-drivers-535-server_535.183.06-0ubuntu6.debian.tar.xz
+Checksums-Sha1:
+ 3e35123fe302179e31d0059ce997a92770e64e39 5923 nvidia-graphics-drivers-535-server_535.183.06-0ubuntu6.dsc
+ 1b6fbbabf38a18dff13c67edb71feffd1c4becdf 340467594 nvidia-graphics-drivers-535-server_535.183.06.orig-amd64.tar.gz
+ f10543e5a11f657f7ad4a111333c6f2a9401c9bb 269496252 nvidia-graphics-drivers-535-server_535.183.06.orig-arm64.tar.gz
+ a168df64544a0e02e1d5f9a0925de8e717b79256 12520139 nvidia-graphics-drivers-535-server_535.183.06.orig-kernelsrc.tar.gz
+ 68934bf2b58a80ef28cf0fcfd39171e71c0cc482 134 nvidia-graphics-drivers-535-server_535.183.06.orig.tar.gz
+ e3c96b0b2e16453cee8294f6ea3760b534bd419c 68928 nvidia-graphics-drivers-535-server_535.183.06-0ubuntu6.debian.tar.xz
+Checksums-Sha256:
+ 92d487d8221781796aeaf0347dc034a7768a1aa12ad57ed164a85f4c570fdfb3 5923 nvidia-graphics-drivers-535-server_535.183.06-0ubuntu6.dsc
+ 39c98e90b7c90723d052e2d4965d9aa4ca2461a798f1f8a3ef561fbab2d9a857 340467594 nvidia-graphics-drivers-535-server_535.183.06.orig-amd64.tar.gz
+ caa441e508c9532ed52e88f01f72f8218abd3c5809b5cd188d3a9281bfba6413 269496252 nvidia-graphics-drivers-535-server_535.183.06.orig-arm64.tar.gz
+ 94b3619344f0e24585a44164ec10bba9af609ccb88624003550930cf35c859bc 12520139 nvidia-graphics-drivers-535-server_535.183.06.orig-kernelsrc.tar.gz
+ 1cae72ea8a1405cfb1c9e3adb3d7f51e12bd71d0f1310ae98b3afc7e2904a34b 134 nvidia-graphics-drivers-535-server_535.183.06.orig.tar.gz
+ 2b39e0725f9a08c9355e707c51f2d11c7e4b248c842e74a4a74315582c9a6633 68928 nvidia-graphics-drivers-535-server_535.183.06-0ubuntu6.debian.tar.xz
+Checksums-Sha512:
+ 3f8bfcbdcd9d28c943f50805aade77b9bcbf08c282585902a8bc51b92bc5b2bbdf5bcdcde525c37afa2f2cc231bdf413002d85d2a277fc9aa61f1b200819cdad 5923 nvidia-graphics-drivers-535-server_535.183.06-0ubuntu6.dsc
+ c09a064b93dc2437ff0c21d3370b948bd11b476ddc51f1bab2dc49d018825935f53ef62f9da6c6679d045c3715c39f937371415d2ad18edda308b2bc525248a9 340467594 nvidia-graphics-drivers-535-server_535.183.06.orig-amd64.tar.gz
+ 43eecfd585f83f8a8e5d3100477dea1a6d28d3cec21666a095dfc578783982a27f7b60e5736820e870101f5365129a8c074a67d8529ec251e944b39ffc319bc0 269496252 nvidia-graphics-drivers-535-server_535.183.06.orig-arm64.tar.gz
+ e78c5c855251bd20f891c9d4d5bd98cee498823e9f95e4e9cd7bc95a2cef55082052605c80a15335a24e4f3e585f3e3f29397c2fb008e5b46a6d665569805a08 12520139 nvidia-graphics-drivers-535-server_535.183.06.orig-kernelsrc.tar.gz
+ 6dfa63e0718121349e947766f62c9cad1c27cf36c07748297f5937e30a66d8bef3f9648306094a839715fde85fa301b27dc84aaf857fb89466b6989e4720fac2 134 nvidia-graphics-drivers-535-server_535.183.06.orig.tar.gz
+ e46b98d0839b14ef19279d27ffbb8d038bc6873591163e357423440d3bb4cd9510a4e2df859a8c42bed43a6191ea39e96976576802e9c157100f951f81c8cd3a 68928 nvidia-graphics-drivers-535-server_535.183.06-0ubuntu6.debian.tar.xz
+Autobuild: yes
+
+Package: nvidia-graphics-drivers-550-server
+Format: 3.0 (quilt)
+Binary: nvidia-driver-550-server, nvidia-kernel-source-550-server, nvidia-dkms-550-server, nvidia-utils-550-server, libnvidia-compute-550-server, nvidia-compute-utils-550-server, nvidia-headless-no-dkms-550-server, nvidia-headless-550-server, nvidia-kernel-common-550-server, nvidia-firmware-550-server-550.90.12, libnvidia-gl-550-server, libnvidia-common-550-server, libnvidia-extra-550-server, xserver-xorg-video-nvidia-550-server, libnvidia-cfg1-550-server, libnvidia-fbc1-550-server, libnvidia-decode-550-server, libnvidia-encode-550-server, nvidia-driver-550-server-open, nvidia-kernel-source-550-server-open, nvidia-dkms-550-server-open, nvidia-headless-no-dkms-550-server-open, nvidia-headless-550-server-open
+Architecture: amd64 arm64 i386 all
+Version: 550.90.12-0ubuntu2
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Kuba Pawlak <kuba.pawlak@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 12), dpkg-dev (>= 1.17.11~), xz-utils, zstd, dkms, libxext6, po-debconf, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev, libkmod-dev, libpciaccess-dev, pkg-config, libnvidia-egl-wayland1, libc6, libx11-6, python3
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/canonical/nvidia-graphics-drivers/tree/550-server
+Vcs-Git: git://github.com/canonical/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-550-server
+Package-List:
+ libnvidia-cfg1-550-server deb non-free/libs optional arch=amd64,arm64
+ libnvidia-common-550-server deb non-free/libs optional arch=all
+ libnvidia-compute-550-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-decode-550-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-encode-550-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-extra-550-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-fbc1-550-server deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-gl-550-server deb non-free/libs optional arch=i386,amd64,arm64
+ nvidia-compute-utils-550-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-550-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-550-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-550-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-550-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-firmware-550-server-550.90.12 deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-550-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-550-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-550-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-550-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-common-550-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-550-server deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-550-server-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-utils-550-server deb non-free/libs optional arch=amd64,arm64
+ xserver-xorg-video-nvidia-550-server deb non-free/x11 optional arch=amd64,arm64
+Files:
+ efbc4355dc55bf8c1e1fff3f1d05a028 5903 nvidia-graphics-drivers-550-server_550.90.12-0ubuntu2.dsc
+ 4da8bc913481eb8763ec79e11be2fd92 306054403 nvidia-graphics-drivers-550-server_550.90.12.orig-amd64.tar.gz
+ 07b150a9551f6598390c2f2405171570 235936662 nvidia-graphics-drivers-550-server_550.90.12.orig-arm64.tar.gz
+ 93ba66ce2e4742bcfcc396a5308e194a 13524156 nvidia-graphics-drivers-550-server_550.90.12.orig-kernelsrc.tar.gz
+ 57b3ed55f94d98a1275f725e7e56950a 138 nvidia-graphics-drivers-550-server_550.90.12.orig.tar.gz
+ b92310871c0dd3a79fe75416c69ae4c0 66632 nvidia-graphics-drivers-550-server_550.90.12-0ubuntu2.debian.tar.xz
+Checksums-Sha1:
+ 488056bdfdf3a199fe52d5bab38341d886aead80 5903 nvidia-graphics-drivers-550-server_550.90.12-0ubuntu2.dsc
+ f25ddb6b6c187cb23d29fb612874ae16bab6931b 306054403 nvidia-graphics-drivers-550-server_550.90.12.orig-amd64.tar.gz
+ 182d38e33449b9c4dbca473ab62eba8acacca417 235936662 nvidia-graphics-drivers-550-server_550.90.12.orig-arm64.tar.gz
+ 29606d0eddc0c8260c7bbdbe223d8d0151978c63 13524156 nvidia-graphics-drivers-550-server_550.90.12.orig-kernelsrc.tar.gz
+ 6d640e3bca7ffe27b4a5e5737a7671d8d29bca46 138 nvidia-graphics-drivers-550-server_550.90.12.orig.tar.gz
+ 2d2f1c45c057c1f49e665f8e936659f05d06edb1 66632 nvidia-graphics-drivers-550-server_550.90.12-0ubuntu2.debian.tar.xz
+Checksums-Sha256:
+ c05f320f30b4ead3fee386687cd6a850a115f8feb8774c2ea8d952429cd0bb46 5903 nvidia-graphics-drivers-550-server_550.90.12-0ubuntu2.dsc
+ 2f4dae06df0c4e3c89b9c100de82f6b7c64b1996c770939cf88652cc05154e7a 306054403 nvidia-graphics-drivers-550-server_550.90.12.orig-amd64.tar.gz
+ a9232e39b27e1fdc6771abe6cb645dada39b20229d6af39ef51e9ff06602161d 235936662 nvidia-graphics-drivers-550-server_550.90.12.orig-arm64.tar.gz
+ c0352f7296edc22c0ad3d990478d948c3f178d93e34b5199597fc1d6c4112358 13524156 nvidia-graphics-drivers-550-server_550.90.12.orig-kernelsrc.tar.gz
+ 91f7ad50a0229f4d3b0eca790bd7a885ad7101d4498395b6bedd736c3497a62c 138 nvidia-graphics-drivers-550-server_550.90.12.orig.tar.gz
+ 3924b93725d1fd44bed81aca3c1f15da2806c128c7d9452194b2d9e3f4c023d3 66632 nvidia-graphics-drivers-550-server_550.90.12-0ubuntu2.debian.tar.xz
+Checksums-Sha512:
+ 2fc6118ce1c0d404f3161fd4c1f965bf44834fc57fb4e2e386d3b65593771c73d4eff1b9110b5977ac9def54f493efabbbc043a23dd80c24ef8607e4358d8593 5903 nvidia-graphics-drivers-550-server_550.90.12-0ubuntu2.dsc
+ 1d9d5d539e00470e4d1e253bb05fb62cef8c7bbec65adb31d46758e39107e5e5de0e0c75294d615569fe44055beafd0e33482d7afa41fa0abc0cf08b450c0665 306054403 nvidia-graphics-drivers-550-server_550.90.12.orig-amd64.tar.gz
+ d032104ac11b4da5afc8c81b75894f09c1505625f1b2597752953582c08631d6e62f35f0b027279af9fc69b5ebb602dbb2e0da16f65f5165542e70945797a347 235936662 nvidia-graphics-drivers-550-server_550.90.12.orig-arm64.tar.gz
+ f2800a558b7b23b8e0ab45745338a6e13050f19b8267134515c1b8ff7e3fa157543dac67a944fc92f0141791bbfa0f7ab064b7a9eb5275808ea161e32ad3d23e 13524156 nvidia-graphics-drivers-550-server_550.90.12.orig-kernelsrc.tar.gz
+ 29a5fb8cd94787c21755a85b70c385584b4052c116178af4ff0c7208e015386422062d672c5103d9179f40afbf6aa60253e612f32103a0483210330a68b4df3f 138 nvidia-graphics-drivers-550-server_550.90.12.orig.tar.gz
+ d5ef7ced450cdecb5b90b92a130c76d383fa04a57a85f3fd505701a086d3660e6b90b74968c90047aab04239fc2081f5aa8738a519799d8806e3a395f44e64ef 66632 nvidia-graphics-drivers-550-server_550.90.12-0ubuntu2.debian.tar.xz
+Autobuild: yes
+
+Package: nvidia-graphics-drivers-560
+Format: 3.0 (quilt)
+Binary: nvidia-driver-560, nvidia-kernel-source-560, nvidia-dkms-560, nvidia-utils-560, libnvidia-compute-560, nvidia-compute-utils-560, nvidia-headless-no-dkms-560, nvidia-headless-560, nvidia-kernel-common-560, nvidia-firmware-560-560.35.03, libnvidia-gl-560, libnvidia-common-560, libnvidia-extra-560, xserver-xorg-video-nvidia-560, libnvidia-cfg1-560, libnvidia-fbc1-560, libnvidia-decode-560, libnvidia-encode-560, nvidia-driver-560-open, nvidia-kernel-source-560-open, nvidia-dkms-560-open, nvidia-headless-no-dkms-560-open, nvidia-headless-560-open
+Architecture: amd64 arm64 i386 all
+Version: 560.35.03-0ubuntu5
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 12), dpkg-dev (>= 1.17.11~), xz-utils, zstd, dkms, libxext6, po-debconf, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev, libkmod-dev, libpciaccess-dev, pkg-config, libnvidia-egl-wayland1, libc6, libx11-6, python3
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/canonical/nvidia-graphics-drivers/tree/560
+Vcs-Git: git://github.com/canonical/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-560
+Package-List:
+ libnvidia-cfg1-560 deb non-free/libs optional arch=amd64,arm64
+ libnvidia-common-560 deb non-free/libs optional arch=all
+ libnvidia-compute-560 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-decode-560 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-encode-560 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-extra-560 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-fbc1-560 deb non-free/libs optional arch=i386,amd64,arm64
+ libnvidia-gl-560 deb non-free/libs optional arch=i386,amd64,arm64
+ nvidia-compute-utils-560 deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-560 deb non-free/libs optional arch=amd64,arm64
+ nvidia-dkms-560-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-560 deb non-free/libs optional arch=amd64,arm64
+ nvidia-driver-560-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-firmware-560-560.35.03 deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-560 deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-560-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-560 deb non-free/libs optional arch=amd64,arm64
+ nvidia-headless-no-dkms-560-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-common-560 deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-560 deb non-free/libs optional arch=amd64,arm64
+ nvidia-kernel-source-560-open deb non-free/libs optional arch=amd64,arm64
+ nvidia-utils-560 deb non-free/libs optional arch=amd64,arm64
+ xserver-xorg-video-nvidia-560 deb non-free/x11 optional arch=amd64,arm64
+Files:
+ 86d8c5737217b971090745abd318fc78 5468 nvidia-graphics-drivers-560_560.35.03-0ubuntu5.dsc
+ c3029c8561ee524d468921017ac7645b 321126081 nvidia-graphics-drivers-560_560.35.03.orig-amd64.tar.gz
+ 91c5c59a7dbb999ed6520b05c832eaee 250574431 nvidia-graphics-drivers-560_560.35.03.orig-arm64.tar.gz
+ 0fe98fcbee12fc68faf90f716466d605 15431685 nvidia-graphics-drivers-560_560.35.03.orig-kernelsrc.tar.gz
+ 7497d4a1a8f489bae87e4a4c26ad72ca 134 nvidia-graphics-drivers-560_560.35.03.orig.tar.gz
+ e2ee400571357af52dcee2fdf9a2a6df 51676 nvidia-graphics-drivers-560_560.35.03-0ubuntu5.debian.tar.xz
+Checksums-Sha1:
+ 3353d7430f3e2df7761036f06ab7a4ca4f9e92ca 5468 nvidia-graphics-drivers-560_560.35.03-0ubuntu5.dsc
+ 5c61ad80e2761d84dd8de65c7f2d368e52f37243 321126081 nvidia-graphics-drivers-560_560.35.03.orig-amd64.tar.gz
+ 54b603d5a912641b399fcbba1c68b40506925250 250574431 nvidia-graphics-drivers-560_560.35.03.orig-arm64.tar.gz
+ d1d2045df7504b54016747da887c56eac5a86f3f 15431685 nvidia-graphics-drivers-560_560.35.03.orig-kernelsrc.tar.gz
+ b660542f70fbcd2fe290302301642ff823785507 134 nvidia-graphics-drivers-560_560.35.03.orig.tar.gz
+ 3cae50c95840e150e99c98837d1d52b3b6f8baea 51676 nvidia-graphics-drivers-560_560.35.03-0ubuntu5.debian.tar.xz
+Checksums-Sha256:
+ 4343c19a0578b6c88c7f42ea79564d4b977273fa9bad7d5481e2106386e2de80 5468 nvidia-graphics-drivers-560_560.35.03-0ubuntu5.dsc
+ e81f48716fb5d042ec0a4b95ac9fea770b84153bdb85f738232bd25bf90aeb3b 321126081 nvidia-graphics-drivers-560_560.35.03.orig-amd64.tar.gz
+ aa8152629e5a08e646f335760fd67a274f65a2249023fdd33080505be5c9fca5 250574431 nvidia-graphics-drivers-560_560.35.03.orig-arm64.tar.gz
+ 0d4705bfd7f46447a45ce5b37c7b82f308f152be79c8d0ff465c9644861aa37a 15431685 nvidia-graphics-drivers-560_560.35.03.orig-kernelsrc.tar.gz
+ 4aae8c25089b329681c3d977203cf800d87520d6e93fd121d371635f7d91f64c 134 nvidia-graphics-drivers-560_560.35.03.orig.tar.gz
+ 44e4f610211ef58dae164e005f6c8b9ab14536d8d4a95c86d7fb2016493ca6f6 51676 nvidia-graphics-drivers-560_560.35.03-0ubuntu5.debian.tar.xz
+Checksums-Sha512:
+ 8b840acff353b231ae2acf69c1f4f4bb35cdc4ca54283e145deb44b2e397259dd275ca4f94a80ae4b7156bd42f8bcd8e85dce436d4f7f9297c92dc473f310057 5468 nvidia-graphics-drivers-560_560.35.03-0ubuntu5.dsc
+ 5d014c66fe77a23639d989afb1631c364434a3577fba6b2a62e522376f637bcb6e4666b4fa812b2463f18f100b2a432dbec42b5c56acbfa67d26511b8e5546cd 321126081 nvidia-graphics-drivers-560_560.35.03.orig-amd64.tar.gz
+ e2037e3cf104a1f25bc96af6a4619043cbc5e408b4922ee70c053422cb75a02bd4da7bd121ccbfe91d9ae7170cc0d70fb729957915dd4273f3e876401006d947 250574431 nvidia-graphics-drivers-560_560.35.03.orig-arm64.tar.gz
+ aa5d1a848de8be4f385b640ee28c6dc920fe742b28b8f057b0f28c1ee9cc6285528c25423dfbdd54985b9b3e1e9f2d92b5dc8e0c72b4434da9ec7c17de2518cf 15431685 nvidia-graphics-drivers-560_560.35.03.orig-kernelsrc.tar.gz
+ 1d9c6fcad0c0de76e80d20f071034045983e874f5ed8e26b98e65ea7dadea59e4e7cf48d844e23f8848b98ff48011175a4e644394a7ffaa6915ea8e3bd8495b9 134 nvidia-graphics-drivers-560_560.35.03.orig.tar.gz
+ 59efc4bd152babfc3b801ea90df428814252cf75e4912feff0089f9fa1015a20eba736d3cc8fd0627c1041323607f624ccc228c81e83ee66c796e69f49a2d842 51676 nvidia-graphics-drivers-560_560.35.03-0ubuntu5.debian.tar.xz
+Autobuild: yes
+
+Package: sl-modem
+Format: 3.0 (quilt)
+Binary: sl-modem-dkms, sl-modem-daemon
+Architecture: i386 amd64
+Version: 2.9.11~20110321-19build2
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+Uploaders: Maurizio Avogadro <mavoga@gmail.com>, Rolf Leggewie <foss@rolf.leggewie.biz>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), bzip2, libasound2-dev (>> 1.0.6), po-debconf, dh-sequence-dkms
+Testsuite: autopkgtest-pkg-dkms
+Homepage: https://linmodems.technion.ac.il/packages/smartlink/
+Vcs-Browser: https://salsa.debian.org/debian/sl-modem
+Vcs-Git: https://salsa.debian.org/debian/sl-modem.git
+Directory: pool/restricted/s/sl-modem
+Package-List:
+ sl-modem-daemon deb non-free/misc optional arch=i386
+ sl-modem-dkms deb non-free/kernel optional arch=i386,amd64
+Files:
+ 47487dbf868cae13c5c918977c6c3257 2375 sl-modem_2.9.11~20110321-19build2.dsc
+ e2b2217bb1727890dfa08ac65e4cf4ed 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ 27b5be01f19dae1e9179f29d7a6430c7 37444 sl-modem_2.9.11~20110321-19build2.debian.tar.xz
+Checksums-Sha1:
+ 5d77cb3e5443b1103f7d7ddcf1c4be7e6116212a 2375 sl-modem_2.9.11~20110321-19build2.dsc
+ e9a5f456dab090674c2351cc9528ac41823a7949 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ 7a0d7df8af0b7664f9860e4408c75693704c710f 37444 sl-modem_2.9.11~20110321-19build2.debian.tar.xz
+Checksums-Sha256:
+ f1633401e1c72a17ddc0e0df141fc3d5a356470fa57553c23dbca22217023068 2375 sl-modem_2.9.11~20110321-19build2.dsc
+ cea496e9c34a16cf347124b27ed673f3a6e87089f83e15ab5e0b0365a56fd253 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ 73f7ce86076db8c2539df2ca6b65269d600d710892c76aaf090cbd9ffc048f06 37444 sl-modem_2.9.11~20110321-19build2.debian.tar.xz
+Checksums-Sha512:
+ 9d3a3130c61bf2f98652c43e28c5fc2e75c2efef77f27f4825429c8a827536b801d5cde2ee542cb4cab9e195ec196b457ea72206c4f1deba2dc4ea3757fa674a 2375 sl-modem_2.9.11~20110321-19build2.dsc
+ 0556c9464f127265e0b53540f7cbc28a927f2d5bc09975563abc94e689ae63e30d322457fe5ed88703f682b0a00c809a396b522f19f03aec81a104df31c0f253 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ 466e6a72a676410f3940e3fa5e6598cae65d9e714ecf2c474a1c5fb735b73a7b7266529002b8d43d70cf71177cf4c87f8201dfc0d8bd94c4a2e942d420d3e8a6 37444 sl-modem_2.9.11~20110321-19build2.debian.tar.xz
+Autobuild: yes
+

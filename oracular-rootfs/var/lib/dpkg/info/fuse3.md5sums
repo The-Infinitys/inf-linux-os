@@ -1,0 +1,6 @@
+0c5e7b3f692df7251926ce512c572f60  usr/bin/fusermount3
+92888dbe2d9b443324f0fe2c0b9f9b48  usr/sbin/mount.fuse3
+d4384d175142462ab724f247eaf0e7fa  usr/share/doc/fuse3/copyright
+beee8d668fa4575de47bfae74ebf98eb  usr/share/initramfs-tools/hooks/fuse
+e1e3056e6181c8a8bfd92c63279214a4  usr/share/man/man1/fusermount3.1.gz
+2bafe8e5b8ac9519aa38f98fcf15c934  usr/share/man/man8/mount.fuse3.8.gz

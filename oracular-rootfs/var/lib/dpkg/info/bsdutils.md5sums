@@ -1,9 +1,9 @@
-6fc76dee3f0854a6216e19ffddccd253  usr/bin/logger
-b4d2af43b30c84dc23ea75d5657e56b5  usr/bin/renice
-0768a0ee62e8a50c54aca7011a45a17e  usr/bin/script
-f996b6c43a4139b5c7a11c15ec63086f  usr/bin/scriptlive
-3badcbede3cd4692667028c79aca2ffd  usr/bin/scriptreplay
-110e74ad99f7cd5510df30ae68634021  usr/bin/wall
+f112db0f2699fe0ea1c20ff81adcae3d  usr/bin/logger
+e1c20f731686199d70a21feb207c57cc  usr/bin/renice
+971260ac0b30dd8c4c11544b01923f51  usr/bin/script
+726f960ade5e3618250f634d38f9a7f3  usr/bin/scriptlive
+f937d4422222cc12dfb4c65fbb23991b  usr/bin/scriptreplay
+297bc8e4db6f7ce2c8550b3ee38c490f  usr/bin/wall
 02261462f9dc58fb597a10cbc120b519  usr/share/bash-completion/completions/logger
 971b883266b55869fab7e8aab1b3e3dc  usr/share/bash-completion/completions/renice
 176ef4a32b28d854c9eee2a9dcc11f0c  usr/share/bash-completion/completions/script
@@ -11,7 +11,7 @@ f996b6c43a4139b5c7a11c15ec63086f  usr/bin/scriptlive
 a3890ee025e7e1e948c41da8c8db4259  usr/share/bash-completion/completions/scriptreplay
 8fb153c973defc52cae222280b1a0aba  usr/share/bash-completion/completions/wall
 d24bc4ea57045907d99bf8f44ea0fb53  usr/share/doc/bsdutils/NEWS.Debian.gz
-397ad5072bff104e95d081fc4d342b1c  usr/share/doc/bsdutils/changelog.Debian.gz
+96ee3c6f64ccd8ee59cf0b778b0a858a  usr/share/doc/bsdutils/changelog.Debian.gz
 5c9968f6b211230aac1d99f373a5812a  usr/share/doc/bsdutils/copyright
 51ac1ee0ed35bf99cf543bf46063c4da  usr/share/lintian/overrides/bsdutils
 33ea6047ae26c87e2e5dbc812d839f53  usr/share/man/man1/logger.1.gz

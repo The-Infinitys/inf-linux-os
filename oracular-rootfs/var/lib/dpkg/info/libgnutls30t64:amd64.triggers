@@ -1,2 +1,2 @@
-# Triggers added by dh_makeshlibs/13.16ubuntu2
+# Triggers added by dh_makeshlibs/13.18ubuntu2
 activate-noawait ldconfig

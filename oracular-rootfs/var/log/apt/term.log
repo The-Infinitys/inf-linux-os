@@ -1,0 +1,774 @@
+
+Log started: 2025-03-21  02:51:19
+Selecting previously unselected package libncursesw6:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3478 files and directories currently installed.)
+Preparing to unpack .../libncursesw6_6.5-2_amd64.deb ...
+Unpacking libncursesw6:amd64 (6.5-2) ...
+Selecting previously unselected package nano.
+Preparing to unpack .../archives/nano_8.1-1_amd64.deb ...
+Unpacking nano (8.1-1) ...
+Setting up libncursesw6:amd64 (6.5-2) ...
+Setting up nano (8.1-1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+Processing triggers for libc-bin (2.40-1ubuntu3) ...
+Log ended: 2025-03-21  02:51:20
+
+Log started: 2025-03-21  02:55:44
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../bash_5.2.32-1ubuntu1.1_amd64.deb ...
+Unpacking bash (5.2.32-1ubuntu1.1) over (5.2.32-1ubuntu1) ...
+Setting up bash (5.2.32-1ubuntu1.1) ...
+update-alternatives: using /usr/share/man/man7/bash-builtins.7.gz to provide /usr/share/man/man7/builtins.7.gz (builtins.7.gz) in auto mode
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.40.2-1ubuntu1.1_amd64.deb ...
+Unpacking bsdutils (1:2.40.2-1ubuntu1.1) over (1:2.40.2-1ubuntu1) ...
+Setting up bsdutils (1:2.40.2-1ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libc6_2.40-1ubuntu3.1_amd64.deb ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+Unpacking libc6:amd64 (2.40-1ubuntu3.1) over (2.40-1ubuntu3) ...
+Setting up libc6:amd64 (2.40-1ubuntu3.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libsmartcols1_2.40.2-1ubuntu1.1_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.40.2-1ubuntu1.1) over (2.40.2-1ubuntu1) ...
+Setting up libsmartcols1:amd64 (2.40.2-1ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.40.2-1ubuntu1.1_amd64.deb ...
+Unpacking libuuid1:amd64 (2.40.2-1ubuntu1.1) over (2.40.2-1ubuntu1) ...
+Setting up libuuid1:amd64 (2.40.2-1ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libblkid1_2.40.2-1ubuntu1.1_amd64.deb ...
+Unpacking libblkid1:amd64 (2.40.2-1ubuntu1.1) over (2.40.2-1ubuntu1) ...
+Setting up libblkid1:amd64 (2.40.2-1ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.40.2-1ubuntu1.1_amd64.deb ...
+Unpacking libmount1:amd64 (2.40.2-1ubuntu1.1) over (2.40.2-1ubuntu1) ...
+Setting up libmount1:amd64 (2.40.2-1ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.40.2-1ubuntu1.1_amd64.deb ...
+Unpacking util-linux (2.40.2-1ubuntu1.1) over (2.40.2-1ubuntu1) ...
+Setting up util-linux (2.40.2-1ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.40-1ubuntu3.1_amd64.deb ...
+Unpacking libc-bin (2.40-1ubuntu3.1) over (2.40-1ubuntu3) ...
+Setting up libc-bin (2.40-1ubuntu3.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libcap2_1%3a2.66-5ubuntu3.1_amd64.deb ...
+Unpacking libcap2:amd64 (1:2.66-5ubuntu3.1) over (1:2.66-5ubuntu3) ...
+Setting up libcap2:amd64 (1:2.66-5ubuntu3.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libdb5.3t64_5.3.28+dfsg2-7ubuntu1_amd64.deb ...
+Unpacking libdb5.3t64:amd64 (5.3.28+dfsg2-7ubuntu1) over (5.3.28+dfsg2-7) ...
+Setting up libdb5.3t64:amd64 (5.3.28+dfsg2-7ubuntu1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libssl3t64_3.3.1-2ubuntu2.1_amd64.deb ...
+Unpacking libssl3t64:amd64 (3.3.1-2ubuntu2.1) over (3.3.1-2ubuntu2) ...
+Setting up libssl3t64:amd64 (3.3.1-2ubuntu2.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_256.5-2ubuntu3.1_amd64.deb ...
+Unpacking libsystemd0:amd64 (256.5-2ubuntu3.1) over (256.5-2ubuntu3) ...
+Setting up libsystemd0:amd64 (256.5-2ubuntu3.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libudev1_256.5-2ubuntu3.1_amd64.deb ...
+Unpacking libudev1:amd64 (256.5-2ubuntu3.1) over (256.5-2ubuntu3) ...
+Setting up libudev1:amd64 (256.5-2ubuntu3.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libtasn1-6_4.19.0-3ubuntu0.24.10.1_amd64.deb ...
+Unpacking libtasn1-6:amd64 (4.19.0-3ubuntu0.24.10.1) over (4.19.0-3build1) ...
+Setting up libtasn1-6:amd64 (4.19.0-3ubuntu0.24.10.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../libgnutls30t64_3.8.6-2ubuntu1.1_amd64.deb ...
+Unpacking libgnutls30t64:amd64 (3.8.6-2ubuntu1.1) over (3.8.6-2ubuntu1) ...
+Setting up libgnutls30t64:amd64 (3.8.6-2ubuntu1.1) ...
+Processing triggers for debianutils (5.20) ...
+Processing triggers for libc-bin (2.40-1ubuntu3.1) ...
+Log ended: 2025-03-21  02:55:49
+
+Log started: 2025-03-21  02:56:32
+Selecting previously unselected package neofetch.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3560 files and directories currently installed.)
+Preparing to unpack .../neofetch_7.1.0-4_all.deb ...
+Unpacking neofetch (7.1.0-4) ...
+Setting up neofetch (7.1.0-4) ...
+Log ended: 2025-03-21  02:56:32
+
+Log started: 2025-03-21  02:56:55
+Selecting previously unselected package mount.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 3565 files and directories currently installed.)
+Preparing to unpack .../mount_2.40.2-1ubuntu1.1_amd64.deb ...
+Unpacking mount (2.40.2-1ubuntu1.1) ...
+Selecting previously unselected package libapparmor1:amd64.
+Preparing to unpack .../libapparmor1_4.1.0~beta1-0ubuntu3_amd64.deb ...
+Unpacking libapparmor1:amd64 (4.1.0~beta1-0ubuntu3) ...
+Selecting previously unselected package libsystemd-shared:amd64.
+Preparing to unpack .../libsystemd-shared_256.5-2ubuntu3.1_amd64.deb ...
+Unpacking libsystemd-shared:amd64 (256.5-2ubuntu3.1) ...
+Selecting previously unselected package systemd.
+Preparing to unpack .../systemd_256.5-2ubuntu3.1_amd64.deb ...
+Unpacking systemd (256.5-2ubuntu3.1) ...
+Setting up libapparmor1:amd64 (4.1.0~beta1-0ubuntu3) ...
+Setting up libsystemd-shared:amd64 (256.5-2ubuntu3.1) ...
+Setting up mount (2.40.2-1ubuntu1.1) ...
+Setting up systemd (256.5-2ubuntu3.1) ...
+Created symlink '/etc/systemd/system/getty.target.wants/getty@tty1.service' → '/usr/lib/systemd/system/getty@.service'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/remote-fs.target' → '/usr/lib/systemd/system/remote-fs.target'.
+Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-pstore.service' → '/usr/lib/systemd/system/systemd-pstore.service'.
+Initializing machine ID from random generator.
+[0;1;39m/usr/lib/tmpfiles.d/legacy.conf:13: Duplicate line for path "/run/lock", ignoring.[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd-network.conf:10: Failed to resolve user 'systemd-network': No such process[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd-network.conf:11: Failed to resolve user 'systemd-network': No such process[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd-network.conf:12: Failed to resolve user 'systemd-network': No such process[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd-network.conf:13: Failed to resolve user 'systemd-network': No such process[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd.conf:22: Failed to resolve group 'systemd-journal': No such process[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd.conf:23: Failed to resolve group 'systemd-journal': No such process[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd.conf:27: Failed to resolve group 'systemd-journal': No such process[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd.conf:28: Failed to resolve group 'systemd-journal': No such process[0m
+[0;1;31m/usr/lib/tmpfiles.d/systemd.conf:29: Failed to resolve group 'systemd-journal': No such process[0m
+[0;1;38:5:185mDetected unsafe path transition /etc (owned by 100000) → /etc/ssh (owned by root) during canonicalization of etc/ssh/ssh_config.d.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/lock.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/lib (owned by 100000) → /var/lib/systemd (owned by root) during canonicalization of var/lib/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/lib (owned by 100000) → /var/lib/systemd (owned by root) during canonicalization of var/lib/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/lib (owned by 100000) → /var/lib/systemd (owned by root) during canonicalization of var/lib/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/log (owned by 100000) → /var/log/journal (owned by root) during canonicalization of var/log/journal.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/log (owned by 100000) → /var/log/journal (owned by root) during canonicalization of var/log/journal.[0m
+Creating group 'systemd-journal' with GID 999.
+Creating group 'systemd-network' with GID 998.
+Creating user 'systemd-network' (systemd Network Management) with UID 998 and GID 998.
+[0;1;39m/usr/lib/tmpfiles.d/legacy.conf:13: Duplicate line for path "/run/lock", ignoring.[0m
+[0;1;38:5:185mDetected unsafe path transition /etc (owned by 100000) → /etc/ssh (owned by root) during canonicalization of etc/ssh/ssh_config.d.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/lock.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd/netif.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd/netif.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/lib (owned by 100000) → /var/lib/systemd (owned by root) during canonicalization of var/lib/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/lib (owned by 100000) → /var/lib/systemd (owned by root) during canonicalization of var/lib/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/lib (owned by 100000) → /var/lib/systemd (owned by root) during canonicalization of var/lib/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/lib (owned by 100000) → /var/lib/systemd (owned by root) during canonicalization of var/lib/systemd.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/log (owned by 100000) → /var/log/journal (owned by root) during canonicalization of var/log/journal.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/log (owned by 100000) → /var/log/journal (owned by root) during canonicalization of var/log/journal.[0m
+[0;1;38:5:185mDetected unsafe path transition /var/log (owned by 100000) → /var/log/journal (owned by root) during canonicalization of var/log/journal.[0m
+Selecting previously unselected package systemd-sysv.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4524 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_256.5-2ubuntu3.1_amd64.deb ...
+Unpacking systemd-sysv (256.5-2ubuntu3.1) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../libbsd0_0.12.2-1_amd64.deb ...
+Unpacking libbsd0:amd64 (0.12.2-1) ...
+Setting up libbsd0:amd64 (0.12.2-1) ...
+Selecting previously unselected package libsemanage-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4548 files and directories currently installed.)
+Preparing to unpack .../libsemanage-common_3.5-1build6_all.deb ...
+Unpacking libsemanage-common (3.5-1build6) ...
+Setting up libsemanage-common (3.5-1build6) ...
+Selecting previously unselected package libsepol2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4556 files and directories currently installed.)
+Preparing to unpack .../libsepol2_3.7-1_amd64.deb ...
+Unpacking libsepol2:amd64 (3.7-1) ...
+Setting up libsepol2:amd64 (3.7-1) ...
+Selecting previously unselected package libsemanage2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4560 files and directories currently installed.)
+Preparing to unpack .../libsemanage2_3.5-1build6_amd64.deb ...
+Unpacking libsemanage2:amd64 (3.5-1build6) ...
+Setting up libsemanage2:amd64 (3.5-1build6) ...
+Selecting previously unselected package login.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4564 files and directories currently installed.)
+Preparing to unpack .../login_1%3a4.15.3-3ubuntu2_amd64.deb ...
+Unpacking login (1:4.15.3-3ubuntu2) ...
+Setting up login (1:4.15.3-3ubuntu2) ...
+Selecting previously unselected package passwd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4655 files and directories currently installed.)
+Preparing to unpack .../passwd_1%3a4.15.3-3ubuntu2_amd64.deb ...
+Unpacking passwd (1:4.15.3-3ubuntu2) ...
+Setting up passwd (1:4.15.3-3ubuntu2) ...
+no matching password file entry in /etc/shadow
+add user 'root' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'daemon' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'bin' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'sys' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'sync' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'games' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'man' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'lp' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'mail' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'news' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'uucp' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'proxy' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'www-data' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'backup' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'list' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'irc' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user '_apt' in /etc/shadow? No
+no matching password file entry in /etc/shadow
+add user 'nobody' in /etc/shadow? No
+pwck: no changes
+no matching group file entry in /etc/gshadow
+add group 'root' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'daemon' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'bin' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'sys' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'adm' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'tty' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'disk' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'lp' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'mail' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'news' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'uucp' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'man' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'proxy' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'kmem' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'dialout' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'fax' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'voice' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'cdrom' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'floppy' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'tape' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'sudo' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'audio' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'dip' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'www-data' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'backup' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'operator' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'list' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'irc' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'src' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'shadow' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'utmp' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'video' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'sasl' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'plugdev' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'staff' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'games' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'users' in /etc/gshadow? No
+no matching group file entry in /etc/gshadow
+add group 'nogroup' in /etc/gshadow? No
+grpck: no changes
+Shadow passwords are now on.
+Selecting previously unselected package adduser.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5010 files and directories currently installed.)
+Preparing to unpack .../adduser_3.137ubuntu2_all.deb ...
+Unpacking adduser (3.137ubuntu2) ...
+Setting up adduser (3.137ubuntu2) ...
+Selecting previously unselected package libcom-err2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5058 files and directories currently installed.)
+Preparing to unpack .../00-libcom-err2_1.47.1-1ubuntu1_amd64.deb ...
+Unpacking libcom-err2:amd64 (1.47.1-1ubuntu1) ...
+Selecting previously unselected package openssl.
+Preparing to unpack .../01-openssl_3.3.1-2ubuntu2.1_amd64.deb ...
+Unpacking openssl (3.3.1-2ubuntu2.1) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../02-ca-certificates_20240203_all.deb ...
+Unpacking ca-certificates (20240203) ...
+Selecting previously unselected package libdbus-1-3:amd64.
+Preparing to unpack .../03-libdbus-1-3_1.14.10-4ubuntu5_amd64.deb ...
+Unpacking libdbus-1-3:amd64 (1.14.10-4ubuntu5) ...
+Selecting previously unselected package dbus-bin.
+Preparing to unpack .../04-dbus-bin_1.14.10-4ubuntu5_amd64.deb ...
+Unpacking dbus-bin (1.14.10-4ubuntu5) ...
+Selecting previously unselected package dbus-session-bus-common.
+Preparing to unpack .../05-dbus-session-bus-common_1.14.10-4ubuntu5_all.deb ...
+Unpacking dbus-session-bus-common (1.14.10-4ubuntu5) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../06-libexpat1_2.6.2-2ubuntu0.1_amd64.deb ...
+Unpacking libexpat1:amd64 (2.6.2-2ubuntu0.1) ...
+Selecting previously unselected package dbus-daemon.
+Preparing to unpack .../07-dbus-daemon_1.14.10-4ubuntu5_amd64.deb ...
+Unpacking dbus-daemon (1.14.10-4ubuntu5) ...
+Selecting previously unselected package dbus-system-bus-common.
+Preparing to unpack .../08-dbus-system-bus-common_1.14.10-4ubuntu5_all.deb ...
+Unpacking dbus-system-bus-common (1.14.10-4ubuntu5) ...
+Selecting previously unselected package dbus.
+Preparing to unpack .../09-dbus_1.14.10-4ubuntu5_amd64.deb ...
+Unpacking dbus (1.14.10-4ubuntu5) ...
+Selecting previously unselected package libpam-systemd:amd64.
+Preparing to unpack .../10-libpam-systemd_256.5-2ubuntu3.1_amd64.deb ...
+Unpacking libpam-systemd:amd64 (256.5-2ubuntu3.1) ...
+Selecting previously unselected package dbus-user-session.
+Preparing to unpack .../11-dbus-user-session_1.14.10-4ubuntu5_amd64.deb ...
+Unpacking dbus-user-session (1.14.10-4ubuntu5) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../12-libatomic1_14.2.0-4ubuntu2_amd64.deb ...
+Unpacking libatomic1:amd64 (14.2.0-4ubuntu2) ...
+Selecting previously unselected package libglib2.0-0t64:amd64.
+Preparing to unpack .../13-libglib2.0-0t64_2.82.1-0ubuntu1_amd64.deb ...
+Unpacking libglib2.0-0t64:amd64 (2.82.1-0ubuntu1) ...
+Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../14-libkrb5support0_1.21.3-3ubuntu0.2_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.21.3-3ubuntu0.2) ...
+Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../15-libk5crypto3_1.21.3-3ubuntu0.2_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.21.3-3ubuntu0.2) ...
+Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../16-libkeyutils1_1.6.3-3build1_amd64.deb ...
+Unpacking libkeyutils1:amd64 (1.6.3-3build1) ...
+Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../17-libkrb5-3_1.21.3-3ubuntu0.2_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.21.3-3ubuntu0.2) ...
+Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../18-libgssapi-krb5-2_1.21.3-3ubuntu0.2_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.21.3-3ubuntu0.2) ...
+Selecting previously unselected package libicu74:amd64.
+Preparing to unpack .../19-libicu74_74.2-1ubuntu4_amd64.deb ...
+Unpacking libicu74:amd64 (74.2-1ubuntu4) ...
+Selecting previously unselected package libkmod2:amd64.
+Preparing to unpack .../20-libkmod2_31+20240202-2ubuntu8_amd64.deb ...
+Unpacking libkmod2:amd64 (31+20240202-2ubuntu8) ...
+Selecting previously unselected package readline-common.
+Preparing to unpack .../21-readline-common_8.2-5_all.deb ...
+Unpacking readline-common (8.2-5) ...
+Selecting previously unselected package libreadline8t64:amd64.
+Preparing to unpack .../22-libreadline8t64_8.2-5_amd64.deb ...
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-5) ...
+Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../23-libsqlite3-0_3.46.1-1_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.46.1-1) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../24-libxml2_2.12.7+dfsg-3ubuntu0.2_amd64.deb ...
+Unpacking libxml2:amd64 (2.12.7+dfsg-3ubuntu0.2) ...
+Selecting previously unselected package libyaml-0-2:amd64.
+Preparing to unpack .../25-libyaml-0-2_0.2.5-1build1_amd64.deb ...
+Unpacking libyaml-0-2:amd64 (0.2.5-1build1) ...
+Selecting previously unselected package shared-mime-info.
+Preparing to unpack .../26-shared-mime-info_2.4-5_amd64.deb ...
+Unpacking shared-mime-info (2.4-5) ...
+Selecting previously unselected package udev.
+Preparing to unpack .../27-udev_256.5-2ubuntu3.1_amd64.deb ...
+Unpacking udev (256.5-2ubuntu3.1) ...
+Selecting previously unselected package apparmor.
+Preparing to unpack .../28-apparmor_4.1.0~beta1-0ubuntu3_amd64.deb ...
+Unpacking apparmor (4.1.0~beta1-0ubuntu3) ...
+Selecting previously unselected package libfuse3-3:amd64.
+Preparing to unpack .../29-libfuse3-3_3.14.0-9_amd64.deb ...
+Unpacking libfuse3-3:amd64 (3.14.0-9) ...
+Selecting previously unselected package fuse3.
+Preparing to unpack .../30-fuse3_3.14.0-9_amd64.deb ...
+Adding 'diversion of /bin/fusermount to /bin/fusermount.usr-is-merged by fuse3'
+Adding 'diversion of /sbin/mount.fuse to /sbin/mount.fuse.usr-is-merged by fuse3'
+Unpacking fuse3 (3.14.0-9) ...
+Selecting previously unselected package libcbor0.10:amd64.
+Preparing to unpack .../31-libcbor0.10_0.10.2-1.2ubuntu2_amd64.deb ...
+Unpacking libcbor0.10:amd64 (0.10.2-1.2ubuntu2) ...
+Selecting previously unselected package libedit2:amd64.
+Preparing to unpack .../32-libedit2_3.1-20240517-1_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20240517-1) ...
+Selecting previously unselected package libfido2-1:amd64.
+Preparing to unpack .../33-libfido2-1_1.15.0-1_amd64.deb ...
+Unpacking libfido2-1:amd64 (1.15.0-1) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../34-libnghttp2-14_1.62.1-2_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.62.1-2) ...
+Selecting previously unselected package libpng16-16t64:amd64.
+Preparing to unpack .../35-libpng16-16t64_1.6.44-1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.44-1) ...
+Selecting previously unselected package libpsl5t64:amd64.
+Preparing to unpack .../36-libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libxau6:amd64.
+Preparing to unpack .../37-libxau6_1%3a1.0.9-1build6_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.9-1build6) ...
+Selecting previously unselected package openssh-client.
+Preparing to unpack .../38-openssh-client_1%3a9.7p1-7ubuntu4.2_amd64.deb ...
+Unpacking openssh-client (1:9.7p1-7ubuntu4.2) ...
+Selecting previously unselected package bubblewrap.
+Preparing to unpack .../39-bubblewrap_0.10.0-1_amd64.deb ...
+Unpacking bubblewrap (0.10.0-1) ...
+Selecting previously unselected package gpgconf.
+Preparing to unpack .../40-gpgconf_2.4.4-2ubuntu18_amd64.deb ...
+Unpacking gpgconf (2.4.4-2ubuntu18) ...
+Selecting previously unselected package libksba8:amd64.
+Preparing to unpack .../41-libksba8_1.6.7-2_amd64.deb ...
+Unpacking libksba8:amd64 (1.6.7-2) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../42-libsasl2-modules-db_2.1.28+dfsg1-8_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.28+dfsg1-8) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../43-libsasl2-2_2.1.28+dfsg1-8_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.28+dfsg1-8) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../44-libldap-common_2.6.8+dfsg-1~exp4ubuntu1.1_all.deb ...
+Unpacking libldap-common (2.6.8+dfsg-1~exp4ubuntu1.1) ...
+Selecting previously unselected package libldap2:amd64.
+Preparing to unpack .../45-libldap2_2.6.8+dfsg-1~exp4ubuntu1.1_amd64.deb ...
+Unpacking libldap2:amd64 (2.6.8+dfsg-1~exp4ubuntu1.1) ...
+Selecting previously unselected package dirmngr.
+Preparing to unpack .../46-dirmngr_2.4.4-2ubuntu18_amd64.deb ...
+Unpacking dirmngr (2.4.4-2ubuntu18) ...
+Selecting previously unselected package xdg-dbus-proxy.
+Preparing to unpack .../47-xdg-dbus-proxy_0.1.6-1_amd64.deb ...
+Unpacking xdg-dbus-proxy (0.1.6-1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../48-libbrotli1_1.1.0-2build2_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.1.0-2build2) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../49-librtmp1_2.4+20151223.gitfa8646d.1-2build7_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+Selecting previously unselected package libssh2-1t64:amd64.
+Preparing to unpack .../50-libssh2-1t64_1.11.0-7_amd64.deb ...
+Unpacking libssh2-1t64:amd64 (1.11.0-7) ...
+Selecting previously unselected package libcurl3t64-gnutls:amd64.
+Preparing to unpack .../51-libcurl3t64-gnutls_8.9.1-2ubuntu2.2_amd64.deb ...
+Unpacking libcurl3t64-gnutls:amd64 (8.9.1-2ubuntu2.2) ...
+Selecting previously unselected package libstemmer0d:amd64.
+Preparing to unpack .../52-libstemmer0d_2.2.0-4build1_amd64.deb ...
+Unpacking libstemmer0d:amd64 (2.2.0-4build1) ...
+Selecting previously unselected package libxmlb2:amd64.
+Preparing to unpack .../53-libxmlb2_0.3.19-1_amd64.deb ...
+Unpacking libxmlb2:amd64 (0.3.19-1) ...
+Selecting previously unselected package libappstream5:amd64.
+Preparing to unpack .../54-libappstream5_1.0.3-1_amd64.deb ...
+Unpacking libappstream5:amd64 (1.0.3-1) ...
+Selecting previously unselected package libarchive13t64:amd64.
+Preparing to unpack .../55-libarchive13t64_3.7.4-1ubuntu0.1_amd64.deb ...
+Unpacking libarchive13t64:amd64 (3.7.4-1ubuntu0.1) ...
+Selecting previously unselected package libdconf1:amd64.
+Preparing to unpack .../56-libdconf1_0.40.0-4build2_amd64.deb ...
+Unpacking libdconf1:amd64 (0.40.0-4build2) ...
+Selecting previously unselected package libgdk-pixbuf2.0-common.
+Preparing to unpack .../57-libgdk-pixbuf2.0-common_2.42.12+dfsg-1_all.deb ...
+Unpacking libgdk-pixbuf2.0-common (2.42.12+dfsg-1) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../58-libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../59-libjpeg8_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libdeflate0:amd64.
+Preparing to unpack .../60-libdeflate0_1.21-1_amd64.deb ...
+Unpacking libdeflate0:amd64 (1.21-1) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../61-libjbig0_2.1-6.1ubuntu2_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-6.1ubuntu2) ...
+Selecting previously unselected package liblerc4:amd64.
+Preparing to unpack .../62-liblerc4_4.0.0+ds-4ubuntu2_amd64.deb ...
+Unpacking liblerc4:amd64 (4.0.0+ds-4ubuntu2) ...
+Selecting previously unselected package libsharpyuv0:amd64.
+Preparing to unpack .../63-libsharpyuv0_1.4.0-0.1_amd64.deb ...
+Unpacking libsharpyuv0:amd64 (1.4.0-0.1) ...
+Selecting previously unselected package libwebp7:amd64.
+Preparing to unpack .../64-libwebp7_1.4.0-0.1_amd64.deb ...
+Unpacking libwebp7:amd64 (1.4.0-0.1) ...
+Selecting previously unselected package libtiff6:amd64.
+Preparing to unpack .../65-libtiff6_4.5.1+git230720-4ubuntu4_amd64.deb ...
+Unpacking libtiff6:amd64 (4.5.1+git230720-4ubuntu4) ...
+Selecting previously unselected package libgdk-pixbuf-2.0-0:amd64.
+Preparing to unpack .../66-libgdk-pixbuf-2.0-0_2.42.12+dfsg-1_amd64.deb ...
+Unpacking libgdk-pixbuf-2.0-0:amd64 (2.42.12+dfsg-1) ...
+Selecting previously unselected package libjson-glib-1.0-common.
+Preparing to unpack .../67-libjson-glib-1.0-common_1.8.0-2build2_all.deb ...
+Unpacking libjson-glib-1.0-common (1.8.0-2build2) ...
+Selecting previously unselected package libjson-glib-1.0-0:amd64.
+Preparing to unpack .../68-libjson-glib-1.0-0_1.8.0-2build2_amd64.deb ...
+Unpacking libjson-glib-1.0-0:amd64 (1.8.0-2build2) ...
+Selecting previously unselected package libmalcontent-0-0:amd64.
+Preparing to unpack .../69-libmalcontent-0-0_0.12.0-1.1ubuntu1.1_amd64.deb ...
+Unpacking libmalcontent-0-0:amd64 (0.12.0-1.1ubuntu1.1) ...
+Selecting previously unselected package libavahi-common-data:amd64.
+Preparing to unpack .../70-libavahi-common-data_0.8-13ubuntu6_amd64.deb ...
+Unpacking libavahi-common-data:amd64 (0.8-13ubuntu6) ...
+Selecting previously unselected package libavahi-common3:amd64.
+Preparing to unpack .../71-libavahi-common3_0.8-13ubuntu6_amd64.deb ...
+Unpacking libavahi-common3:amd64 (0.8-13ubuntu6) ...
+Selecting previously unselected package libavahi-client3:amd64.
+Preparing to unpack .../72-libavahi-client3_0.8-13ubuntu6_amd64.deb ...
+Unpacking libavahi-client3:amd64 (0.8-13ubuntu6) ...
+Selecting previously unselected package libavahi-glib1:amd64.
+Preparing to unpack .../73-libavahi-glib1_0.8-13ubuntu6_amd64.deb ...
+Unpacking libavahi-glib1:amd64 (0.8-13ubuntu6) ...
+Selecting previously unselected package gnupg-utils.
+Preparing to unpack .../74-gnupg-utils_2.4.4-2ubuntu18_amd64.deb ...
+Unpacking gnupg-utils (2.4.4-2ubuntu18) ...
+Selecting previously unselected package gpg.
+Preparing to unpack .../75-gpg_2.4.4-2ubuntu18_amd64.deb ...
+Unpacking gpg (2.4.4-2ubuntu18) ...
+Selecting previously unselected package pinentry-curses.
+Preparing to unpack .../76-pinentry-curses_1.2.1-3ubuntu5_amd64.deb ...
+Unpacking pinentry-curses (1.2.1-3ubuntu5) ...
+Selecting previously unselected package gpg-agent.
+Preparing to unpack .../77-gpg-agent_2.4.4-2ubuntu18_amd64.deb ...
+Unpacking gpg-agent (2.4.4-2ubuntu18) ...
+Selecting previously unselected package gpgsm.
+Preparing to unpack .../78-gpgsm_2.4.4-2ubuntu18_amd64.deb ...
+Unpacking gpgsm (2.4.4-2ubuntu18) ...
+Selecting previously unselected package keyboxd.
+Preparing to unpack .../79-keyboxd_2.4.4-2ubuntu18_amd64.deb ...
+Unpacking keyboxd (2.4.4-2ubuntu18) ...
+Selecting previously unselected package gnupg.
+Preparing to unpack .../80-gnupg_2.4.4-2ubuntu18_all.deb ...
+Unpacking gnupg (2.4.4-2ubuntu18) ...
+Selecting previously unselected package libgpgme11t64:amd64.
+Preparing to unpack .../81-libgpgme11t64_1.18.0-4.1ubuntu4_amd64.deb ...
+Unpacking libgpgme11t64:amd64 (1.18.0-4.1ubuntu4) ...
+Selecting previously unselected package libostree-1-1:amd64.
+Preparing to unpack .../82-libostree-1-1_2024.7-1_amd64.deb ...
+Unpacking libostree-1-1:amd64 (2024.7-1) ...
+Selecting previously unselected package libpolkit-gobject-1-0:amd64.
+Preparing to unpack .../83-libpolkit-gobject-1-0_124-2ubuntu1.24.10.2_amd64.deb ...
+Unpacking libpolkit-gobject-1-0:amd64 (124-2ubuntu1.24.10.2) ...
+Selecting previously unselected package libpolkit-agent-1-0:amd64.
+Preparing to unpack .../84-libpolkit-agent-1-0_124-2ubuntu1.24.10.2_amd64.deb ...
+Unpacking libpolkit-agent-1-0:amd64 (124-2ubuntu1.24.10.2) ...
+Selecting previously unselected package flatpak.
+Preparing to unpack .../85-flatpak_1.14.10-1_amd64.deb ...
+Unpacking flatpak (1.14.10-1) ...
+Selecting previously unselected package liblzo2-2:amd64.
+Preparing to unpack .../86-liblzo2-2_2.10-3_amd64.deb ...
+Unpacking liblzo2-2:amd64 (2.10-3) ...
+Selecting previously unselected package squashfs-tools.
+Preparing to unpack .../87-squashfs-tools_1%3a4.6.1-1build1_amd64.deb ...
+Unpacking squashfs-tools (1:4.6.1-1build1) ...
+Selecting previously unselected package snapd.
+Preparing to unpack .../88-snapd_2.67.1+24.10_amd64.deb ...
+Unpacking snapd (2.67.1+24.10) ...
+Setting up libksba8:amd64 (1.6.7-2) ...
+Setting up pinentry-curses (1.2.1-3ubuntu5) ...
+Setting up libexpat1:amd64 (2.6.2-2ubuntu0.1) ...
+Setting up bubblewrap (0.10.0-1) ...
+Setting up libsharpyuv0:amd64 (1.4.0-0.1) ...
+Setting up systemd-sysv (256.5-2ubuntu3.1) ...
+Setting up libxau6:amd64 (1:1.0.9-1build6) ...
+Setting up libkeyutils1:amd64 (1.6.3-3build1) ...
+Setting up liblerc4:amd64 (4.0.0+ds-4ubuntu2) ...
+Setting up libcbor0.10:amd64 (0.10.2-1.2ubuntu2) ...
+Setting up libyaml-0-2:amd64 (0.2.5-1build1) ...
+Setting up libbrotli1:amd64 (1.1.0-2build2) ...
+Setting up libedit2:amd64 (3.1-20240517-1) ...
+Setting up libsqlite3-0:amd64 (3.46.1-1) ...
+Setting up libgdk-pixbuf2.0-common (2.42.12+dfsg-1) ...
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up libnghttp2-14:amd64 (1.62.1-2) ...
+Setting up libdeflate0:amd64 (1.21-1) ...
+Setting up liblzo2-2:amd64 (2.10-3) ...
+Setting up libcom-err2:amd64 (1.47.1-1ubuntu1) ...
+Setting up libldap-common (2.6.8+dfsg-1~exp4ubuntu1.1) ...
+Setting up libjbig0:amd64 (2.1-6.1ubuntu2) ...
+Setting up libkrb5support0:amd64 (1.21.3-3ubuntu0.2) ...
+Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg1-8) ...
+Setting up apparmor (4.1.0~beta1-0ubuntu3) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+Created symlink '/etc/systemd/system/sysinit.target.wants/apparmor.service' → '/usr/lib/systemd/system/apparmor.service'.
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+Setting up libavahi-common-data:amd64 (0.8-13ubuntu6) ...
+Setting up libdbus-1-3:amd64 (1.14.10-4ubuntu5) ...
+Setting up libpng16-16t64:amd64 (1.6.44-1) ...
+Setting up libatomic1:amd64 (14.2.0-4ubuntu2) ...
+Setting up libk5crypto3:amd64 (1.21.3-3ubuntu0.2) ...
+Setting up libjpeg-turbo8:amd64 (2.1.5-2ubuntu2) ...
+Setting up libfuse3-3:amd64 (3.14.0-9) ...
+Setting up libsasl2-2:amd64 (2.1.28+dfsg1-8) ...
+Setting up libwebp7:amd64 (1.4.0-0.1) ...
+Setting up libicu74:amd64 (74.2-1ubuntu4) ...
+Setting up dbus-session-bus-common (1.14.10-4ubuntu5) ...
+Setting up libjson-glib-1.0-common (1.8.0-2build2) ...
+Setting up libkrb5-3:amd64 (1.21.3-3ubuntu0.2) ...
+Setting up libstemmer0d:amd64 (2.2.0-4build1) ...
+Setting up libssh2-1t64:amd64 (1.11.0-7) ...
+Setting up dbus-system-bus-common (1.14.10-4ubuntu5) ...
+Setting up libfido2-1:amd64 (1.15.0-1) ...
+Setting up openssl (3.3.1-2ubuntu2.1) ...
+Setting up readline-common (8.2-5) ...
+Setting up libxml2:amd64 (2.12.7+dfsg-3ubuntu0.2) ...
+Setting up libldap2:amd64 (2.6.8+dfsg-1~exp4ubuntu1.1) ...
+Setting up dbus-bin (1.14.10-4ubuntu5) ...
+Setting up libkmod2:amd64 (31+20240202-2ubuntu8) ...
+Setting up gnupg-utils (2.4.4-2ubuntu18) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu11) ...
+Setting up squashfs-tools (1:4.6.1-1build1) ...
+Setting up libavahi-common3:amd64 (0.8-13ubuntu6) ...
+Setting up dbus-daemon (1.14.10-4ubuntu5) ...
+[0;1;38:5:185mDetected unsafe path transition /var/lib (owned by 100000) → /var/lib/dbus (owned by root) during canonicalization of var/lib/dbus.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run/dbus.[0m
+Setting up fuse3 (3.14.0-9) ...
+Removing 'diversion of /bin/fusermount to /bin/fusermount.usr-is-merged by fuse3'
+Removing 'diversion of /sbin/mount.fuse to /sbin/mount.fuse.usr-is-merged by fuse3'
+Setting up ca-certificates (20240203) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+146 added, 0 removed; done.
+Setting up libglib2.0-0t64:amd64 (2.82.1-0ubuntu1) ...
+No schema files found: doing nothing.
+Setting up dbus (1.14.10-4ubuntu5) ...
+Setting up shared-mime-info (2.4-5) ...
+Setting up libgssapi-krb5-2:amd64 (1.21.3-3ubuntu0.2) ...
+Setting up udev (256.5-2ubuntu3.1) ...
+Creating group 'input' with GID 997.
+Creating group 'sgx' with GID 996.
+Creating group 'kvm' with GID 995.
+Creating group 'render' with GID 994.
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /dev (owned by root) during canonicalization of dev/loop-control.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /dev (owned by root) during canonicalization of dev/net/tun.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /dev (owned by root) during canonicalization of dev/fuse.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /dev (owned by root) during canonicalization of dev/vfio/vfio.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /dev (owned by root) during canonicalization of dev/kvm.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /dev (owned by root) during canonicalization of dev/vhost-net.[0m
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /dev (owned by root) during canonicalization of dev/vhost-vsock.[0m
+Setting up libreadline8t64:amd64 (8.2-5) ...
+Setting up xdg-dbus-proxy (0.1.6-1) ...
+Setting up libtiff6:amd64 (4.5.1+git230720-4ubuntu4) ...
+Setting up gpgconf (2.4.4-2ubuntu18) ...
+Setting up libpam-systemd:amd64 (256.5-2ubuntu3.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+Setting up libgdk-pixbuf-2.0-0:amd64 (2.42.12+dfsg-1) ...
+Setting up libavahi-glib1:amd64 (0.8-13ubuntu6) ...
+Setting up libarchive13t64:amd64 (3.7.4-1ubuntu0.1) ...
+Setting up libavahi-client3:amd64 (0.8-13ubuntu6) ...
+Setting up gpg (2.4.4-2ubuntu18) ...
+Setting up libpolkit-gobject-1-0:amd64 (124-2ubuntu1.24.10.2) ...
+Setting up libmalcontent-0-0:amd64 (0.12.0-1.1ubuntu1.1) ...
+Setting up gpg-agent (2.4.4-2ubuntu18) ...
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent.socket' → '/usr/lib/systemd/user/gpg-agent.socket'.
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket' → '/usr/lib/systemd/user/gpg-agent-ssh.socket'.
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket' → '/usr/lib/systemd/user/gpg-agent-extra.socket'.
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-browser.socket' → '/usr/lib/systemd/user/gpg-agent-browser.socket'.
+Setting up openssh-client (1:9.7p1-7ubuntu4.2) ...
+Setting up libxmlb2:amd64 (0.3.19-1) ...
+Setting up gpgsm (2.4.4-2ubuntu18) ...
+Setting up libcurl3t64-gnutls:amd64 (8.9.1-2ubuntu2.2) ...
+Setting up libappstream5:amd64 (1.0.3-1) ...
+Setting up libjson-glib-1.0-0:amd64 (1.8.0-2build2) ...
+Setting up libdconf1:amd64 (0.40.0-4build2) ...
+Setting up dirmngr (2.4.4-2ubuntu18) ...
+Created symlink '/etc/systemd/user/sockets.target.wants/dirmngr.socket' → '/usr/lib/systemd/user/dirmngr.socket'.
+Setting up dbus-user-session (1.14.10-4ubuntu5) ...
+Setting up keyboxd (2.4.4-2ubuntu18) ...
+Created symlink '/etc/systemd/user/sockets.target.wants/keyboxd.socket' → '/usr/lib/systemd/user/keyboxd.socket'.
+Setting up gnupg (2.4.4-2ubuntu18) ...
+Setting up libpolkit-agent-1-0:amd64 (124-2ubuntu1.24.10.2) ...
+Setting up libgpgme11t64:amd64 (1.18.0-4.1ubuntu4) ...
+Setting up snapd (2.67.1+24.10) ...
+Created symlink '/etc/systemd/system/multi-user.target.wants/snapd.apparmor.service' → '/usr/lib/systemd/system/snapd.apparmor.service'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/snapd.autoimport.service' → '/usr/lib/systemd/system/snapd.autoimport.service'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/snapd.core-fixup.service' → '/usr/lib/systemd/system/snapd.core-fixup.service'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/snapd.recovery-chooser-trigger.service' → '/usr/lib/systemd/system/snapd.recovery-chooser-trigger.service'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/snapd.seeded.service' → '/usr/lib/systemd/system/snapd.seeded.service'.
+Created symlink '/etc/systemd/system/cloud-final.service.wants/snapd.seeded.service' → '/usr/lib/systemd/system/snapd.seeded.service'.
+Unit /usr/lib/systemd/system/snapd.seeded.service is added as a dependency to a non-existent unit cloud-final.service.
+Created symlink '/etc/systemd/system/multi-user.target.wants/snapd.service' → '/usr/lib/systemd/system/snapd.service'.
+Created symlink '/etc/systemd/system/timers.target.wants/snapd.snap-repair.timer' → '/usr/lib/systemd/system/snapd.snap-repair.timer'.
+Created symlink '/etc/systemd/system/sockets.target.wants/snapd.socket' → '/usr/lib/systemd/system/snapd.socket'.
+Created symlink '/etc/systemd/system/final.target.wants/snapd.system-shutdown.service' → '/usr/lib/systemd/system/snapd.system-shutdown.service'.
+Setting up libostree-1-1:amd64 (2024.7-1) ...
+Setting up flatpak (1.14.10-1) ...
+Processing triggers for libc-bin (2.40-1ubuntu3.1) ...
+Processing triggers for ca-certificates (20240203) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+Log ended: 2025-03-21  02:57:14
+
+Log started: 2025-03-21  02:59:28
+Selecting previously unselected package sudo.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7046 files and directories currently installed.)
+Preparing to unpack .../sudo_1.9.15p5-3ubuntu5_amd64.deb ...
+Unpacking sudo (1.9.15p5-3ubuntu5) ...
+Setting up sudo (1.9.15p5-3ubuntu5) ...
+[0;1;38:5:185mDetected unsafe path transition / (owned by 100000) → /run (owned by root) during canonicalization of run.[0m
+Processing triggers for libc-bin (2.40-1ubuntu3.1) ...
+Log ended: 2025-03-21  02:59:28

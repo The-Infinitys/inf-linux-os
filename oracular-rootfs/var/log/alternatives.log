@@ -8,3 +8,14 @@ update-alternatives 2025-03-21 02:35:45: run with --install /usr/sbin/rmt rmt /u
 update-alternatives 2025-03-21 02:35:45: link group rmt updated to point to /usr/sbin/rmt-tar
 update-alternatives 2025-03-21 02:35:46: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
 update-alternatives 2025-03-21 02:35:46: link group pager updated to point to /bin/more
+update-alternatives 2025-03-21 02:51:19: run with --install /usr/bin/editor editor /bin/nano 40 --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2025-03-21 02:51:19: link group editor updated to point to /bin/nano
+update-alternatives 2025-03-21 02:51:19: run with --install /usr/bin/pico pico /bin/nano 10 --slave /usr/share/man/man1/pico.1.gz pico.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2025-03-21 02:51:19: link group pico updated to point to /bin/nano
+update-alternatives 2025-03-21 02:55:45: run with --remove builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2025-03-21 02:55:45: link group builtins.7.gz fully removed
+update-alternatives 2025-03-21 02:55:45: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz 10
+update-alternatives 2025-03-21 02:55:45: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2025-03-21 02:55:46: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2025-03-21 02:57:05: run with --quiet --install /usr/bin/pinentry pinentry /usr/bin/pinentry-curses 50 --slave /usr/share/man/man1/pinentry.1.gz pinentry.1.gz /usr/share/man/man1/pinentry-curses.1.gz
+update-alternatives 2025-03-21 02:57:05: link group pinentry updated to point to /usr/bin/pinentry-curses

@@ -1,0 +1,15 @@
+db519d34ce300aab538abf5388c607fe  usr/bin/dirmngr
+9b38ddb87c7be185dd6134e28cf9f3a8  usr/bin/dirmngr-client
+10ef85dbf3a6716cb1641993d8b28885  usr/lib/gnupg/dirmngr_ldap
+c524c839628dd23b3966bca442b915bc  usr/lib/systemd/user/dirmngr.service
+55070b8cf2347282d1baf97eb90ca319  usr/lib/systemd/user/dirmngr.socket
+cf1b77f4748b0184a5d430b1563d5292  usr/share/doc/dirmngr/AUTHORS.gz
+dfef42ac91d38ec31553764e477295ba  usr/share/doc/dirmngr/KEYSERVER
+ced4df2bd9b73dae0e7dfe5e4538f103  usr/share/doc/dirmngr/NEWS.gz
+adfc00b5b0d910747dfe91f1aae589a0  usr/share/doc/dirmngr/README.Debian
+59856cfbb86b69de32a9a0ea5800cd4e  usr/share/doc/dirmngr/THANKS.gz
+6cab8642ed8790f0e68cb72781a63a22  usr/share/doc/dirmngr/TODO
+46a00374d9bf0b99885eb9a391bac506  usr/share/doc/dirmngr/copyright
+3cfc5d2867a6672f4f629220632948f4  usr/share/gnupg/sks-keyservers.netCA.pem
+e266a7a0506580f59350ead90dd0662d  usr/share/man/man1/dirmngr-client.1.gz
+c9a3667ac5ce813f552661ee444c133c  usr/share/man/man8/dirmngr.8.gz

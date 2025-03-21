@@ -1,0 +1,6 @@
+21635465dd434adfb717db53fd771b05  usr/lib/x86_64-linux-gnu/libssh2.so.1.0.1
+75441df90bbcf562585f7551b097fd20  usr/share/doc/libssh2-1t64/AUTHORS
+5c04e0b1ad87ed4a547012ed8b67607c  usr/share/doc/libssh2-1t64/RELEASE-NOTES
+a46d5dc94843a3c0fb9b076df80052f1  usr/share/doc/libssh2-1t64/changelog.Debian.gz
+01d4ccf903fda1745b3c8ce66878e7f0  usr/share/doc/libssh2-1t64/copyright
+72db1c2ffd86e09d9f58e06523612be8  usr/share/lintian/overrides/libssh2-1t64
