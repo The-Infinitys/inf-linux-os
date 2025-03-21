@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# umount filesystems
+sudo umount rootfs/run
+sudo umount rootfs/sys
+sudo umount rootfs/dev/pts
+sudo umount rootfs/dev
