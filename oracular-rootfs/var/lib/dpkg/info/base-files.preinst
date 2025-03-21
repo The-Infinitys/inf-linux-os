@@ -1,0 +1,49 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "install" ] || [ "$1" = "upgrade" ]; then
+  for d in bin lib lib32 lib64 libo32 lib64 sbin; do
+    if [ -d "$DPKG_ROOT/$d" ] && [ ! -L "$DPKG_ROOT/$d" ]; then
+      cat <<EOF
+
+
+******************************************************************************
+*
+* The base-files package cannot be installed because this system has a
+* split /usr.
+*
+* Please install the usrmerge package to convert this system to merged-/usr.
+*
+* For more information please read https://wiki.debian.org/UsrMerge.
+*
+******************************************************************************
+
+
+EOF
+      exit 1
+    fi
+  done
+
+  # Remove legacy 24.04 protective diversions without leading dot
+  # FIXME: Remove this after 26.04
+  LEGACY_USRMERGE_DIVERSIONS="bin lib lib32 lib64 libo32 lib64 sbin"
+  for d in $LEGACY_USRMERGE_DIVERSIONS; do
+    if [ "$(dpkg-divert --truename /$d)" = "/$d.usr-is-merged" ]; then
+        dpkg-divert --quiet --package base-files --remove --no-rename --divert /$d.usr-is-merged /$d
+        # Remove the old diversion if it's empty, otherwise move it to the new naming scheme
+        if test -d /$d.usr-is-merged && ! rmdir /$d.usr-is-merged ; then
+            mv --no-target-directory /$d.usr-is-merged /.$d.usr-is-merged
+        fi
+    fi
+  done
+
+  for d in lib32 libo32 libx32; do
+    # Install DEP17 M4 protective diversions
+    dpkg-divert --quiet --package base-files --add --no-rename --divert "/.$d.usr-is-merged" "/$d"
+  done
+fi
+
+# Automatically added by dh_installdeb/13.18ubuntu2
+dpkg-maintscript-helper rm_conffile /etc/default/motd-news 11ubuntu11\~ base-files -- "$@"
+# End automatically added section
+
