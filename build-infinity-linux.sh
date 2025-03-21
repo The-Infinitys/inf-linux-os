@@ -10,10 +10,10 @@ cd "$(dirname "$0")"
 
 script/install-tools.sh
 script/build-rootfs.sh
-script/config-rootfs.sh --before
+script/config-rootfs.sh before
 script/init-chroot.sh
 script/exec-chroot.sh
 script/exit-chroot.sh
-script/config-rootfs.sh --after
+script/config-rootfs.sh after
 
 echo "Done."

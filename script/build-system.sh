@@ -2,8 +2,8 @@
 
 echo "Building Infinity Linux!"
 
-/config-chroot.sh --before
-/config-chroot.sh --after
+/config-chroot.sh before
+/config-chroot.sh after
 exit 0
 # Set the time zone
 

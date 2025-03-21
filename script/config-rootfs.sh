@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 if [ "$1" == "before" ]; then
   cp -f src/ubuntu-oracular-full.list rootfs/etc/apt/sources.list
@@ -8,4 +7,7 @@ if [ "$1" == "before" ]; then
 elif [ "$1" == "after" ]; then
   rm -f rootfs/config-chroot.sh
   rm -f rootfs/build-system.sh
+else
+  echo "Usage: $0 {--before|--after}"
+  exit 1
 fi
