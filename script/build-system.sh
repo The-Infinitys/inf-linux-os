@@ -2,6 +2,9 @@
 
 echo "Building Infinity Linux!"
 
+/config-rootfs.sh --before
+/config-rootfs.sh --after
+exit 0
 # Set the time zone
 
 echo "Updating System..."
