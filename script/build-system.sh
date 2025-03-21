@@ -1,18 +1,25 @@
 #!/bin/bash
 
+cd /
+
 export DEBIAN_FRONTEND=noninteractive
 echo "Building Infinity Linux!"
 
 /config-chroot.sh before
-/config-chroot.sh after
-exit 0
-# Set the time zone
+
+# Update APT Packages
 
 echo "Updating System..."
 apt update
 apt upgrade -y
 apt full-upgrade -y
 echo "Updated System."
+
+# install for boot
+
+apt install -y plymouth plymouth-themes
+cd /usr/share/plymouth/themes
+git clone https://github.com/The-Infinitys/plymouth-infinite.git
 
 echo "Installing additional package manager..."
 ######################################################
@@ -85,3 +92,7 @@ echo "Installing Office Suite..."
 apt install libreoffice -y
 ######################################################
 echo "Complete Office Suite installation."
+
+# After Process
+/config-chroot.sh after
+exit 0
