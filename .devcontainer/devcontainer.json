@@ -1,9 +1,0 @@
-{
-    "name": "Fedora systemd Codespaces",
-    "image": "ghcr.io/gbraad-devenv/fedora/systemd:41",
-
-    "runArgs": [ "--cap-add=NET_ADMIN", "--cap-add=NET_RAW", "--device=/dev/net/tun", "--device=/dev/fuse" ],
-    "overrideCommand": false,
-	"privileged": true,
-    "remoteUser": "gbraad"
-}
