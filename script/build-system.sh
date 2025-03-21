@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export DEBIAN_FRONTEND=noninteractive
 echo "Building Infinity Linux!"
 
 /config-chroot.sh before
