@@ -12,6 +12,7 @@ script/install-tools.sh
 script/build-rootfs.sh
 script/config-rootfs.sh
 script/init-chroot.sh
+script/exec-chroot.sh
 script/exit-chroot.sh
 
 echo "Done."
