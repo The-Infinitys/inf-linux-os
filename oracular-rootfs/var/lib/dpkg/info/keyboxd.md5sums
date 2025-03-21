@@ -1,6 +1,0 @@
-469fea16d33a3618f168e7607caed62c  usr/lib/gnupg/keyboxd
-b15830c6a5c21daf5a0f2c652b9f4a88  usr/lib/systemd/user/keyboxd.service
-8cc617d9f71a3b243c49609162f9d807  usr/lib/systemd/user/keyboxd.socket
-3ef574e79cb4dbbd4b8c1b8955432824  usr/share/doc/keyboxd/README.Debian
-46a00374d9bf0b99885eb9a391bac506  usr/share/doc/keyboxd/copyright
-4b9e35217034b0d1c13b4f82d041fecf  usr/share/man/man1/keyboxd.1.gz

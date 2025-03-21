@@ -1,2 +1,0 @@
-Apt::Install-Recommends false;
-Acquire::Languages "none";

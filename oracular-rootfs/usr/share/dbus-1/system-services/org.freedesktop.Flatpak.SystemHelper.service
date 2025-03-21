@@ -1,5 +1,0 @@
-[D-BUS Service]
-Name=org.freedesktop.Flatpak.SystemHelper
-Exec=/usr/libexec/flatpak-system-helper
-SystemdService=flatpak-system-helper.service
-User=root

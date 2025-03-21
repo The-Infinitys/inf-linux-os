@@ -1,2 +1,0 @@
-libfuse3 3 libfuse3-3 (>= 3.14.0)
-udeb: libfuse3 3 libfuse3-3-udeb (>= 3.14.0)

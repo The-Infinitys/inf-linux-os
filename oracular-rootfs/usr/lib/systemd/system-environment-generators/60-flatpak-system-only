@@ -1,3 +1,0 @@
-#!/bin/sh
-export GIO_USE_VFS=local
-exec flatpak --print-updated-env --print-system-only
