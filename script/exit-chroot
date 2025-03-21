@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # umount filesystems
-sudo umount rootfs/run
-sudo umount rootfs/sys
-sudo umount rootfs/dev/pts
-sudo umount rootfs/dev
+echo "Unmounting filesystems..."
+umount rootfs/run
+umount rootfs/sys
+umount rootfs/dev/pts
+umount rootfs/dev
+
+echo "Done."

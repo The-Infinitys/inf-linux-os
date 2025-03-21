@@ -1,9 +1,12 @@
 #!/bin/bash
 
 # mount filesystems
-sudo mount -o bind /run/ rootfs/run
-sudo cp /etc/hosts rootfs/etc
-sudo mount --bind /dev/ rootfs/dev
-sudo mount --bind /dev/pts rootfs/dev/pts
-sudo mount --bind /proc rootfs/proc
-sudo mount --bind /sys rootfs/sys
+echo "Mounting filesystems..."
+
+mount -o bind /run/ rootfs/run
+cp /etc/hosts rootfs/etc
+mount --bind /dev/ rootfs/dev
+mount --bind /dev/pts rootfs/dev/pts
+mount --bind /sys rootfs/sys
+
+echo "Done."

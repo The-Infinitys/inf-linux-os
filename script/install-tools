@@ -1,9 +1,6 @@
 #!/bin/bash
 
 echo "Installing tools..."
-sudo apt update
-sudo apt install -y mmdebstrap
-sudo apt install -y debootstrap
-sudo apt install -y qemu-user-static
-sudo apt install -y binfmt-support
+apt update
+apt install -y mmdebstrap debootstrap qemu-user-static binfmt-support
 echo "Tools installed."

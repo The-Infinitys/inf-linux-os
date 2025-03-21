@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 if [ "$EUID" -ne 0 ]; then
   echo "This script must be run as root" >&2
   exit 1
@@ -11,6 +12,9 @@ script/install-tools
 script/build-rootfs
 script/config-rootfs
 script/init-chroot
-script/ext-chroot
+script/exit-chroot
+exit 0
 script/clean-chroot
 script/build-image
+
+echo "Done."
