@@ -9,7 +9,7 @@ cd "$(dirname "$0")"
 
 # Enter to built env
 script/config-rootfs.sh debug rootfs
-script/init-chroot.sh
+script/init-chroot.sh rootfs
 chroot rootfs /debug-system.sh
-script/exit-chroot.sh
+script/exit-chroot.sh rootfs
 script/config-rootfs.sh after rootfs

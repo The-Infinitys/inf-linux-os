@@ -24,20 +24,20 @@ parted infinity-linux.img --script mklabel gpt
 
 # Create bios-part partition (2MB, unformatted)
 echo "Creating bios-part partition (2MB, unformatted)..."
-parted infinity-linux.img --script mkpart bios-part 1MiB 3MiB
+parted infinity-linux.img --script mkpart BIOS_PART 1MiB 3MiB
 
 # Create uefi-part partition (512MB, FAT32)
 echo "Creating uefi-part partition (512MB, FAT32)..."
-parted infinity-linux.img --script mkpart uefi-part fat32 3MiB 515MiB
+parted infinity-linux.img --script mkpart UEFI_PART fat32 3MiB 515MiB
 parted infinity-linux.img --script set 2 esp on
 
 # Create linux-boot partition (2048MB, ext4)
 echo "Creating linux-boot partition (2048MB, ext4)..."
-parted infinity-linux.img --script mkpart linux-boot ext4 515MiB 2563MiB
+parted infinity-linux.img --script mkpart LINUX_BOOT ext4 515MiB 2563MiB
 
 # Create inf-linux partition (remaining space, ext4)
 echo "Creating inf-linux partition (remaining space, ext4)..."
-parted infinity-linux.img --script mkpart inf-linux ext4 2563MiB 100%
+parted infinity-linux.img --script mkpart INF_LINUX ext4 2563MiB 100%
 
 # Format the partitions
 echo "Formatting the partitions..."
@@ -47,9 +47,9 @@ LOOP_DEVICE=$(losetup --find --show infinity-linux.img)
 partprobe ${LOOP_DEVICE}
 
 
-mkfs.vfat -F 32 ${LOOP_DEVICE}p2 -n uefi-part
-mkfs.ext4 ${LOOP_DEVICE}p3 -L linux-boot
-mkfs.ext4 ${LOOP_DEVICE}p4 -L inf-linux
+mkfs.vfat -F 32 ${LOOP_DEVICE}p2 -n UEFI_BOOT
+mkfs.ext4 ${LOOP_DEVICE}p3 -L LINUX_BOOT
+mkfs.ext4 ${LOOP_DEVICE}p4 -L INF_LINUX
 
 # Mount the partitions
 echo "Mounting the partitions..."
