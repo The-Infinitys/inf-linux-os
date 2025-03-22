@@ -13,18 +13,10 @@ fi
 
 cd "$(dirname "$0")"
 
-# Create package directory
-echo "Creating package directory..."
-if [ -d "package" ]; then
-  rm -rf package
-fi
-mkdir package
-
-cd package
-
+rm -f inf-linux.img
 # Create a 8GB empty image file
 echo "Creating a 8GB empty image file..."
-dd if=/dev/zero of=infinity-linux.img bs=1M count=8192
+truncate -s 8G infinity-linux.img
 
 # Initialize the image with GPT partition table
 echo "Initializing the image with GPT partition table..."
@@ -49,14 +41,19 @@ parted infinity-linux.img --script mkpart inf-linux ext4 2563MiB 100%
 
 # Format the partitions
 echo "Formatting the partitions..."
+
+# Remount the loop device
 LOOP_DEVICE=$(losetup --find --show infinity-linux.img)
+partprobe ${LOOP_DEVICE}
+
+
 mkfs.vfat -F 32 ${LOOP_DEVICE}p2 -n uefi-part
 mkfs.ext4 ${LOOP_DEVICE}p3 -L linux-boot
 mkfs.ext4 ${LOOP_DEVICE}p4 -L inf-linux
-losetup -d ${LOOP_DEVICE}
 
 # Mount the partitions
 echo "Mounting the partitions..."
+
 mkdir -p /mnt/linux-boot /mnt/inf-linux
 mount ${LOOP_DEVICE}p3 /mnt/linux-boot
 mount ${LOOP_DEVICE}p4 /mnt/inf-linux
@@ -87,7 +84,7 @@ script/init-chroot.sh /mnt/inf-linux
 
 # Install GRUB
 echo "Installing GRUB..."
-chroot /mnt/inf-linux "grub-install --target=x86_64-efi --efi-directory=/efi --boot-directory=/boot ${LOOP_DEVICE} \
+chroot /mnt/inf-linux "grub-install --target=x86_64-efi --boot-directory=/boot ${LOOP_DEVICE} \
 grub-install --target=i386-pc --boot-directory=/boot ${LOOP_DEVICE}"
 
 echo "Exiting chroot environment..."
@@ -99,5 +96,7 @@ umount /mnt/inf-linux/efi
 umount /mnt/inf-linux/boot
 umount /mnt/inf-linux
 rmdir /mnt/linux-boot /mnt/inf-linux
+
+losetup -d ${LOOP_DEVICE}
 
 echo "Script completed successfully."
