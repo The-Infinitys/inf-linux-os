@@ -17,9 +17,12 @@ echo "Updated System."
 
 # install for boot
 
+# install plymouth theme
 apt install -y plymouth plymouth-themes
 cd /usr/share/plymouth/themes
 git clone https://github.com/The-Infinitys/plymouth-infinite.git
+update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/plymouth-infinite/plymouth-infinite.plymouth 250
+update-alternatives --set default.plymouth /usr/share/plymouth/themes/plymouth-infinite/plymouth-infinite.plymouth
 
 echo "Installing additional package manager..."
 ######################################################
@@ -73,7 +76,7 @@ echo "Complete browser installation."
 echo "Installing IDEs..."
 ######################################################
 apt install python3-full npm -y
-apt install cargo clippy rust-docs rust-std rustc rustfmt -y
+apt install cargo rust-clippy rust-docs rustc rustfmt -y
 
 # Install Visual Studio Code
 apt install  wget gpg -y
