@@ -3,8 +3,8 @@
 # mount filesystems
 echo "Mounting filesystems..."
 
-mount -o bind /run/ rootfs/run
-cp /etc/hosts rootfs/etc/
-mount --bind /dev/ rootfs/dev
+mount -o bind /run/ $1/run
+cp /etc/hosts $1/etc/
+mount --bind /dev/ $1/dev
 
 echo "Done."

@@ -2,7 +2,7 @@
 
 # umount filesystems
 echo "Unmounting filesystems..."
-umount rootfs/run
-umount rootfs/dev
+umount $1/run
+umount $1/dev
 
 echo "Done."

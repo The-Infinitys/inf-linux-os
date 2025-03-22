@@ -65,16 +65,18 @@ umount /mnt/inf-linux
 rmdir /mnt/linux-boot /mnt/inf-linux
 
 # Mount all partitions again for grub-install
-mount ${LOOP_DEVICE}p3 /mnt/linux-boot
-mount ${LOOP_DEVICE}p4 /mnt/inf-linux
-mount ${LOOP_DEVICE}p2 /mnt/linux-boot/efi
+mount ${LOOP_DEVICE}p3 /mnt/inf-linux/boot
+mount ${LOOP_DEVICE}p4 /mnt/inf-linux/
+mount ${LOOP_DEVICE}p2 /mnt/inf-linux/efi
 
+script/init-chroot.sh /mnt/inf-linux
 # Install GRUB
-grub-install --target=x86_64-efi --efi-directory=/mnt/linux-boot/efi --boot-directory=/mnt/linux-boot --removable --recheck ${LOOP_DEVICE}
-grub-install --target=i386-pc --boot-directory=/mnt/linux-boot --recheck ${LOOP_DEVICE}
+chroot /mnt/inf-linux "grub-install --target=x86_64-efi --efi-directory=/efi --boot-directory=/boot ${LOOP_DEVICE} \
+grub-install --target=i386-pc --boot-directory=/boot ${LOOP_DEVICE}"
+script/exit-chroot.sh /mnt/inf-linux
 
 # Unmount the partitions
-umount /mnt/linux-boot/efi
-umount /mnt/linux-boot
+umount /mnt/inf-linux/efi
+umount /mnt/inf-linux/boot
 umount /mnt/inf-linux
 rmdir /mnt/linux-boot /mnt/inf-linux
