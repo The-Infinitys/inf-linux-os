@@ -1,2 +1,4 @@
 # Ignore root file systems
 rootfs*/*
+# Ignore all files in the packages directory
+package*/*
