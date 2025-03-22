@@ -15,5 +15,4 @@ script/init-chroot.sh rootfs
 script/exec-chroot.sh
 script/exit-chroot.sh rootfs
 script/config-rootfs.sh after rootfs
-
 echo "Done."

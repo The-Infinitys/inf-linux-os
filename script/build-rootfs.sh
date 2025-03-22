@@ -8,47 +8,26 @@ if [ -d "rootfs" ]; then
   rm -rf rootfs
 fi
 
+ISO_URL="https://cdimage.ubuntu.com/kubuntu/releases/24.10/release/kubuntu-24.10-desktop-amd64.iso"
+ISO_FILE="kubuntu-24.10-desktop-amd64.iso"
+
 mkdir rootfs
 
-TARGET_PACKAGE=" \
-    open-infrastructure-system-boot \
-    open-infrastructure-system-build \
-    open-infrastructure-system-config \
-    open-infrastructure-system-images \
-    isolinux syslinux \
-    linux-headers-generic \
-    linux-image-generic \
-    kubuntu-desktop ubuntu-server \
-    build-essential curl vim \
-    open-vm-tools-desktop \
-    clamav \
-    bind9 \
-    openssh-server \
-    samba smbclient cifs-utils \
-    isc-dhcp-server \
-    minidlna \
-    language-pack-ja \
-    language-pack-kde-ja \
-    fonts-noto \
-    fcitx5-mozc mozc-utils-gui \
-    libreoffice-l10n-ja libreoffice-help-ja \
-    thunderbird-locale-ja \
-    systemd-sysv \
-    dbus \
-    iproute2 \
-    iputils-ping \
-    net-tools \
-    openssh-server \
-    apt-utils \
-    apt-transport-https \
-    wget \
-    nano \
-    sudo \
-    less \
-    locales \
-    mount \
-" mmdebstrap --components="main restricted universe multiverse" \
-  oracular rootfs http://jp.archive.ubuntu.com/ubuntu/ --mode=auto\
-  --arch=amd64
+if [ -f custom_live_cd/$ISO_FILE ]; then
+  echo "$ISO_FILE already exists. Skipping download."
+else
+  echo "Downloading $ISO_FILE..."
+  wget $ISO_URL -O $ISO_FILE
+  mkdir custom_live_cd
+  mv $ISO_FILE custom_live_cd
+fi
+cd custom_live_cd
+mkdir isomount
+mount -o loop $ISO_FILE isomount
+
+mkdir extracted
+rsync --exclude=/casper/filesystem.squashfs -a isomount/ extracted
+unsquashfs isomount/casper/filesystem.squashfs
+mv squashfs-root ../rootfs
 
 echo "Done."

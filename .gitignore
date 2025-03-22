@@ -1,4 +1,4 @@
 # Ignore root file systems
 rootfs*/*
 # Ignore all files in the packages directory
-infinity-linux.img
+custom_live_cd
