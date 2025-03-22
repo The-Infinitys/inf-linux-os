@@ -96,6 +96,14 @@ apt install libreoffice -y
 ######################################################
 echo "Complete Office Suite installation."
 
+
+# Install for Live CD
+echo "Installing for Live CD..."
+######################################################
+apt install -y live-boot live-boot-initramfs-tools squashfs-tools grub2-common network-manager openssh-server openssh-client byobu emacs less lvm2 e2fsprogs net-tools
+
+######################################################
+
 # After Process
 /config-chroot.sh after
 exit 0

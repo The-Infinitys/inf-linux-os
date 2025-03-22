@@ -1,2 +1,2 @@
 # Ignore root file systems
-rootfs/*
+rootfs*/*
