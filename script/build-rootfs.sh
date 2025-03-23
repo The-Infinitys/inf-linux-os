@@ -15,6 +15,7 @@ mkdir rootfs
 
 if [ -f custom_live_cd/$ISO_FILE ]; then
   echo "$ISO_FILE already exists. Skipping download."
+  umount custom_live_cd/isomount
 else
   echo "Downloading $ISO_FILE..."
   wget $ISO_URL -O $ISO_FILE
@@ -28,6 +29,6 @@ mount -o loop $ISO_FILE isomount
 mkdir extracted
 rsync --exclude=/casper/filesystem.squashfs -a isomount/ extracted
 unsquashfs isomount/casper/filesystem.squashfs
-mv squashfs-root ../rootfs
+mv ./squashfs-root/* ../rootfs
 
 echo "Done."
