@@ -30,7 +30,7 @@ echo "Done."
 echo "Rebuilding manifest..."
 
 chmod +w extracted/casper/filesystem.manifest
-chroot edit dpkg-query -W --showformat='${Package} ${Version}\n' > extracted/casper/filesystem.manifest
+chroot ../rootfs dpkg-query -W --showformat='${Package} ${Version}\n' > extracted/casper/filesystem.manifest
 cp extracted/casper/filesystem.manifest extracted/casper/filesystem.manifest-desktop
 sed -i '/ubiquity/d' extracted/casper/filesystem.manifest-desktop
 sed -i '/casper/d' extracted/casper/filesystem.manifest-desktop
@@ -39,9 +39,9 @@ rm extracted/casper/filesystem.squashfs
 rm extracted/casper/filesystem.squashfs.gpg
 
 mksquashfs ../rootfs extracted/casper/filesystem.squashfs -comp xz
-printf $(du -sx --block-size=1 edit | cut -f1) > extracted/casper/filesystem.size
+printf $(du -sx --block-size=1 ../rootfs | cut -f1) > extracted/casper/filesystem.size
 
-printf $(du -sx --block-size=1 edit | cut -f1) > extracted/casper/filesystem.size
+printf $(du -sx --block-size=1 ../rootfs | cut -f1) > extracted/casper/filesystem.size
 
 cd extracted
 rm md5sum.txt
